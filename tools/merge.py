@@ -1,8 +1,8 @@
 import json
 import os
 
-input_folder = '../paper_comments/'  # 替换为包含多个JSON文件的文件夹路径
-output_file = 'output.json'  # 替换为输出合并后JSON文件的路径
+input_folder = '../data/test_comments/'  # 替换为包含多个JSON文件的文件夹路径
+output_file = './output.json'  # 替换为输出合并后JSON文件的路径
 
 merged_data = []
 for filename in os.listdir(input_folder):

@@ -1,0 +1,273 @@
+[
+  {
+    "title": "vox-surf: voxel-based implicit surface representation",
+    "id": 1,
+    "valid_pdf_number": "6/7",
+    "matched_pdf_number": "2/6",
+    "matched_rate": 0.3333333333333333,
+    "citations": {
+      "Sine: Semantic-driven image-based nerf editing with prior-guided editing field": {
+        "authors": [
+          "Chong Bao",
+          "Yinda Zhang",
+          "Bangbang Yang",
+          "Tianxing Fan",
+          "Zesong Yang",
+          "Hujun Bao",
+          "Guofeng Zhang",
+          "Zhaopeng Cui"
+        ],
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper.pdf",
+        "ref_texts": ""
+      },
+      "Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2210.15858",
+        "ref_texts": ""
+      },
+      "Cp-slam: Collaborative neural point-based slam system": {
+        "authors": [],
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/7c10e259c7e56fa218ee03d9ae7d728e-Paper-Conference.pdf",
+        "ref_texts": ""
+      },
+      "Mirror-NeRF: Learning Neural Radiance Fields for Mirrors with Whitted-Style Ray Tracing": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2308.03280",
+        "ref_texts": ""
+      },
+      "Benchmarking Neural Radiance Fields for Autonomous Robots: An Overview": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2405.05526",
+        "ref_texts": "[48] H. Li, X. Yang, H. Zhai, Y. Liu, H. Bao, G. Zhang, Vox-surf: Voxel-based implicit surface representation, IEEE Transactions on Visualization and Computer Graphics (2022) 1\u201312.",
+        "ref_ids": [
+          "48"
+        ],
+        "1": "InsteadofencodingtheentirescenewiththeMLPs, Vox-Surf [48] employs a hybrid architecture that consists of an explicit dense voxel grid with the neural implicit surface representation.",
+        "2": "55 Vox-Surf[48] 0.",
+        "3": "[48] H."
+      },
+      "ImTooth: Neural Implicit Tooth for Dental Augmented Reality": {
+        "authors": [
+          "Hai Li",
+          "Hongjia Zhai",
+          "Xingrui Yang",
+          "Zhirong Wu",
+          "Yihao Zheng",
+          "Haofan Wang",
+          "Jianchao Wu",
+          "Hujun Bao",
+          "Guofeng Zhang"
+        ],
+        "url": "http://www.cad.zju.edu.cn/home/gfzhang/papers/VR-TVCG-2023-ImTooth/ImTooth.pdf",
+        "ref_texts": "[27] H. Li, X. Yang, H. Zhai, Y. Liu, H. Bao, and G. Zhang. Vox-Surf: Voxelbased implicit surface representation. IEEE Transactions on Visualization and Computer Graphics, pp. 1\u201312, 2022.",
+        "ref_ids": [
+          "27"
+        ],
+        "1": "Different from other methods, we use the plaster teeth models as our reconstruction target and learn a voxelsbased neural implicit representation [27] which is editable and flexible.",
+        "2": "To reconstruct highquality results of the large-scale scene, V ox-Surf [27] adopts a sparse voxel structure to divide the spatial regions and store the geometry features in the nodes of the voxel.",
+        "3": "To reconstruct the detail of the teeth model, we adopt the idea of voxel-based neural implicit representation proposed in Vox-Surf[27], which is flexible and lightweight compared to other methods [36, 58, 62, 63].",
+        "4": "Although V ox-Surf [27] relieves the latter step, an accurate 6 DoF pose is still necessary.",
+        "5": "From left to right, we show the RGB image of the plaster model, scanned surface (ground truth), and the surface reconstructed by the COLMAP [46,47], NeuS [58], Vox-Surf [27], our proposed ImTooth, respectively.",
+        "6": "We adopt the surfaceaware voxel resampling strategy [27] after 30,000 iterations.",
+        "7": "We compare our method with the traditional reconstruction method, COLMAP [46, 47], and the recent implicit surface reconstruction method, NeuS [58], V ox-Surf [27].",
+        "8": "[27] H."
+      }
+    }
+  },
+  {
+    "title": "vox-fusion: dense tracking and mapping with voxel-based neural implicit representation",
+    "id": 4,
+    "valid_pdf_number": "0/0",
+    "matched_pdf_number": "0/0",
+    "matched_rate": "0",
+    "citations": {}
+  },
+  {
+    "title": "dp-mvs: detail preserving multi-view surface reconstruction of large-scale scenes",
+    "id": 0,
+    "valid_pdf_number": "0/0",
+    "matched_pdf_number": "0/0",
+    "matched_rate": "0",
+    "citations": {}
+  },
+  {
+    "title": "intrinsicnerf: learning intrinsic neural radiance fields for editable novel view synthesis",
+    "id": 5,
+    "valid_pdf_number": "3/3",
+    "matched_pdf_number": "1/3",
+    "matched_rate": 0.3333333333333333,
+    "citations": {
+      "PVO: Panoptic visual odometry": {
+        "authors": [
+          "Weicai Ye",
+          "Xinyue Lan",
+          "Shuo Chen",
+          "Yuhang Ming",
+          "Xingyuan Yu",
+          "Hujun Bao",
+          "Zhaopeng Cui",
+          "Guofeng Zhang"
+        ],
+        "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Ye_PVO_Panoptic_Visual_Odometry_CVPR_2023_paper.pdf",
+        "ref_texts": ""
+      },
+      "GeneAvatar: Generic Expression-Aware Volumetric Head Avatar Editing from a Single Image": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2404.02152",
+        "ref_texts": "[63] Weicai Ye, Shuo Chen, Chong Bao, Hujun Bao, Marc Pollefeys, Zhaopeng Cui, and Guofeng Zhang. Intrinsicnerf: Learning intrinsic neural radiance fields for editable novel view synthesis. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 339\u2013351, 2023. 2",
+        "ref_ids": [
+          "63"
+        ],
+        "1": "Neural Radiance Field [33] has exhibited great reconstruction and rendering qualities in SLAM [62, 73], scene editing [5, 58\u201360, 64] and relighting [63, 66, 67], especially promoting the emergence of many 3D avatar reconstruction [4, 16, 53, 68, 69, 76] and generation [50, 52, 54]."
+      },
+      "NeRF-Det++: Incorporating Semantic Cues and Perspective-aware Depth Supervision for Indoor Multi-View 3D Detection": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2402.14464",
+        "ref_texts": "[Yeet al. , 2023 ]Weicai Ye, Shuo Chen, Chong Bao, Hujun Bao, Marc Pollefeys, Zhaopeng Cui, and Guofeng Zhang. IntrinsicNeRF: Learning Intrinsic Neural Radiance Fields for Editable Novel View Synthesis. In Proceedings of the IEEE/CVF International Conference on Computer Vision , 2023.",
+        "ref_ids": [
+          "Yeet al\\. , 2023 "
+        ]
+      }
+    }
+  },
+  {
+    "title": "sine: semantic-driven image-based nerf editing with prior-guided editing field",
+    "id": 6,
+    "valid_pdf_number": "7/7",
+    "matched_pdf_number": "5/7",
+    "matched_rate": 0.7142857142857143,
+    "citations": {
+      "Intrinsicnerf: Learning intrinsic neural radiance fields for editable novel view synthesis": {
+        "authors": [
+          "Weicai Ye",
+          "Shuo Chen",
+          "Chong Bao",
+          "Hujun Bao",
+          "Marc Pollefeys",
+          "Zhaopeng Cui",
+          "Guofeng Zhang"
+        ],
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Ye_IntrinsicNeRF_Learning_Intrinsic_Neural_Radiance_Fields_for_Editable_Novel_View_ICCV_2023_paper.pdf",
+        "ref_texts": "[1] Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, and Zhaopeng Cui. SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field. In Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition Conference , 2023.",
+        "ref_ids": [
+          "1"
+        ],
+        "1": "Given the high degree of integration of our approach with NeRF, NeRF extensions can be seamlessly incorporated into our IntrinsicNeRF, such as NeRF in the wild [12, 46, 59], NeRF in dynamic environments [33, 51, 52, 69], fast NeRF [48, 18, 10, 71], NeRF with generalization [11, 64, 72, 27], generative NeRF [55, 62], NeRF with panoptic segmentation [26, 68], NeRFbased SLAM [47, 58, 82], Geometry and Texture Editing with NeRF [1, 14] etc, which will be helpful to the comOriginal Original Recoloring RecoloringFigure 11: Recoloring on Synthetic/Real-World Data."
+      },
+      "Dreamspace: Dreaming your room space with text-driven panoramic texture propagation": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2310.13119.pdf?!%5B%E5%9B%BE%E7%89%87%5D(https://mmbiz.qpic.cn/sz_mmbiz_png/tGynVEPiakb9lruS9sv1HdDZ7vhDqdSHTglAfA3BTYFnjkbjPq1ScXWEdvTr7zziboby5kzsWghbScUOPKSziag0g/640?wx_fmt=png)",
+        "ref_texts": "[2] Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, and Zhaopeng Cui. Sine: Semantic-driven image-based nerf editing with prior-guided editing field. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 20919\u201320929, 2023. 2, 3",
+        "ref_ids": [
+          "2"
+        ],
+        "1": ", by giving text prompts, and automatically transferring textures of our living room with enchanting and meaningful details? Over the past few years, enormous efforts have been paid in the field of scene stylization (or texture synthesis) [2, 5, 16, 18, 22, 40, 56].",
+        "2": ", imitating Van Gogh\u2019s paintings instead of generating recognizable visual elements [22,56]), or focus on texture editing [2,18] on 3D objects with NeRF representation [31] but struggle to generate high-fidelity textures for the whole space and achieve real-time rendering on HMD devices.",
+        "3": ", CLIP model [39]) for style transfer (or editing) [2,18], which achieves stylized results that also follow human language prompts, but these works mainly cannot be scaled to large indoor scenes that allow immersive room touring.",
+        "4": "Therefore, existing works for scene-level stylization either are not applicable for immersive indoor scenescale scenarios with affordable computation on HMD devices [2,18], cannot support semantic meaningful style generation [6, 7, 11, 22, 23, 56], or require well-structured CAD model instead of real-world reconstruction [49]."
+      },
+      "Dyn-e: Local appearance editing of dynamic neural radiance fields": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2307.12909",
+        "ref_texts": "Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, and Zhaopeng Cui. 2023. SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field. In CVPR . Omer Bar-Tal, Dolev Ofri-Amar, Rafail Fridman, Yoni Kasten, and Tali Dekel. 2022. Text2live: Text-driven layered image and video editing. In ECCV . Jonathan T Barron, Ben Mildenhall, Matthew Tancik, Peter Hedman, Ricardo MartinBrualla, and Pratul P Srinivasan. 2021. Mip-nerf: A multiscale representation for anti-aliasing neural radiance fields. In ICCV\u2018\u2019 . Jonathan T Barron, Ben Mildenhall, Dor Verbin, Pratul P Srinivasan, and Peter Hedman."
+      },
+      "Mirror-NeRF: Learning Neural Radiance Fields for Mirrors with Whitted-Style Ray Tracing": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2308.03280",
+        "ref_texts": "[2]Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, and Zhaopeng Cui. 2023. SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field. arXiv preprint arXiv:2303.13277",
+        "ref_ids": [
+          "2"
+        ],
+        "1": "Several extensions and improvements have been proposed to apply NeRF to more challenging problems, such as scene reconstruction [1,8,13,29,30,32,36,38,39,44,48], generalization [24,33], novel view extrapolation [35,45], scene manipulation [2,28,40\u201342], SLAM [23,54], segmentation [20,53], human body [18,31] and so on."
+      },
+      "GeneAvatar: Generic Expression-Aware Volumetric Head Avatar Editing from a Single Image": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2404.02152",
+        "ref_texts": "[5] Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, and Zhaopeng Cui. Sine: Semantic-driven image-based nerf editing with prior-guided editing field. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 20919\u201320929, 2023. 2",
+        "ref_ids": [
+          "5"
+        ],
+        "1": "Neural Radiance Field [33] has exhibited great reconstruction and rendering qualities in SLAM [62, 73], scene editing [5, 58\u201360, 64] and relighting [63, 66, 67], especially promoting the emergence of many 3D avatar reconstruction [4, 16, 53, 68, 69, 76] and generation [50, 52, 54]."
+      },
+      "Neural Rendering and Its Hardware Acceleration: A Review": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2402.00028",
+        "ref_texts": "[8] C. Bao, Y. Zhang, B. Yang, T. Fan, Z. Yang, H. Bao, G. Zhang, and Z. Cui. Sine: Semantic-driven image-based nerf editing with prior-guided editing field. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 20919\u201320929, 2023.",
+        "ref_ids": [
+          "8"
+        ],
+        "1": "NeRF [62] and related works [60]\u2013 [8] have demonstrated good performance in learning scene representation from multi-view input data using volume rendering, which can be utilized in neural rendering-based inverse rendering frameworks.",
+        "2": "[8] C."
+      },
+      "Coin3D: Controllable and Interactive 3D Assets Generation with Proxy-Guided Conditioning": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2405.08054",
+        "ref_texts": "Panos Achlioptas, Olga Diamanti, Ioannis Mitliagkas, and Leonidas Guibas. 2018. Learning representations and generative models for 3d point clouds. In International conference on machine learning . PMLR, 40\u201349. Chong Bao, Yinda Zhang, Yuan Li, Xiyu Zhang, Bangbang Yang, Hujun Bao, Marc Pollefeys, Guofeng Zhang, and Zhaopeng Cui. 2024. GeneAvatar: Generic ExpressionAware Volumetric Head Avatar Editing from a Single Image. arXiv preprint arXiv:2404.02152 (2024). Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, and Zhaopeng Cui. 2023. Sine: Semantic-driven image-based nerf editing with prior-guided editing field. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition . 20919\u201320929. Omer Bar-Tal, Lior Yariv, Yaron Lipman, and Tali Dekel. 2023. Multidiffusion: Fusing diffusion paths for controlled image generation. (2023). Shariq Farooq Bhat, Niloy J Mitra, and Peter Wonka. 2023. LooseControl: Lifting ControlNet for Generalized Depth Conditioning. arXiv preprint arXiv:2312.03079"
+      }
+    }
+  },
+  {
+    "title": "mobile3dscanner: an online 3d scanner for high-quality object reconstruction with a mobile device",
+    "id": 2,
+    "valid_pdf_number": "0/0",
+    "matched_pdf_number": "0/0",
+    "matched_rate": "0",
+    "citations": {}
+  },
+  {
+    "title": "mobile3drecon: real-time monocular 3d reconstruction on a mobile phone",
+    "id": 3,
+    "valid_pdf_number": "4/5",
+    "matched_pdf_number": "3/4",
+    "matched_rate": 0.75,
+    "citations": {
+      "Neuralrecon: Real-time coherent 3d reconstruction from monocular video": {
+        "authors": [
+          "Jiaming Sun",
+          "Yiming Xie",
+          "Linghao Chen",
+          "Xiaowei Zhou",
+          "Hujun Bao"
+        ],
+        "url": "http://openaccess.thecvf.com/content/CVPR2021/papers/Sun_NeuralRecon_Real-Time_Coherent_3D_Reconstruction_From_Monocular_Video_CVPR_2021_paper.pdf",
+        "ref_texts": "[51] Xingbin Yang, L. Zhou, Hanqing Jiang, Z. Tang, Yuanbo Wang, H. Bao, and Guofeng Zhang. Mobile3DRecon: Real-time Monocular 3D Reconstruction on a Mobile Phone. IEEE TVCG , 2020. 2",
+        "ref_ids": [
+          "51"
+        ],
+        "1": "[46,51] optimize this line of research towards low power consumption on mobile platforms.",
+        "2": "2\n[51] Xingbin Yang, L."
+      },
+      "Coli-ba: Compact linearization based solver for bundle adjustment": {
+        "authors": [
+          "Zhichao Ye",
+          "Guanglin Li",
+          "Haomin Liu",
+          "Zhaopeng Cui",
+          "Hujun Bao",
+          "Guofeng Zhang"
+        ],
+        "url": "http://www.cad.zju.edu.cn/home/gfzhang/papers/CoLi/CoLi.pdf",
+        "ref_texts": "[45] X. Yang, L. Zhou, H. Jiang, Z. Tang, Y. Wang, H. Bao, and G. Zhang. Mobile3DRecon: Real-time Monocular 3D Reconstruction on a Mobile Phone. IEEE Transactions on Visualization and Computer Graphics, 26(12):3446\u20133456, 2020.",
+        "ref_ids": [
+          "45"
+        ],
+        "1": "Facing large scenes, the convergence becomes extremely slow, resulting in many offline reconstruction systems timecosting [3,35, 45].",
+        "2": "[45] X."
+      },
+      "Depth Completion with Multiple Balanced Bases and Confidence for Dense Monocular SLAM": {
+        "authors": [],
+        "url": "https://arxiv.org/pdf/2309.04145",
+        "ref_texts": "[60] Xingbin Yang, Liyang Zhou, Hanqing Jiang, Zhongliang Tang, Yuanbo Wang, Hujun Bao, and Guofeng Zhang. Mobile3DRecon: real-time monocular 3d reconstruction on a mobile phone. IEEE Transactions on Visualization and Computer Graphics, 26(12):3446\u20133456, 2020.",
+        "ref_ids": [
+          "60"
+        ],
+        "1": "Our fusion method is based on an online incremental mesh generation method Mobile3DRecon [60]."
+      },
+      "The present and future of mixed reality in China": {
+        "authors": [],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3481619",
+        "ref_texts": ""
+      }
+    }
+  }
+]
