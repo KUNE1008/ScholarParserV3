@@ -1,0 +1,62 @@
+{
+    "title": "vox-surf: voxel-based implicit surface representation",
+    "id": 1,
+    "valid_pdf_number": "3/7",
+    "matched_pdf_number": "3/3",
+    "matched_rate": 1.0,
+    "citations": {
+        "Sine: Semantic-driven image-based nerf editing with prior-guided editing field": {
+            "authors": [
+                "Chong Bao",
+                "Yinda Zhang",
+                "Bangbang Yang",
+                "Tianxing Fan",
+                "Zesong Yang",
+                "Hujun Bao",
+                "Guofeng Zhang",
+                "Zhaopeng Cui"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper.pdf",
+            "ref_texts": "[31] Hai Li, Xingrui Yang, Hongjia Zhai, Yuqian Liu, Hujun Bao, and Guofeng Zhang. V ox-surf: V oxel-based implicit surface representation. IEEE Transactions on Visualization and Computer Graphics , 2022. 2",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Recently, NeRF [42] achieves photo-realistic rendering with volume rendering and inspires many works, including surface reconstruction [31,65, 73], scene editing [4, 18, 67, 70, 71] and generation [22, 51], inverse rendering [5, 76], SLAM [72, 77], etc."
+        },
+        "Cp-slam: Collaborative neural point-based slam system": {
+            "authors": [],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/7c10e259c7e56fa218ee03d9ae7d728e-Paper-Conference.pdf",
+            "ref_texts": "[21] Hai Li, Xingrui Yang, Hongjia Zhai, Yuqian Liu, Hujun Bao, and Guofeng Zhang. V ox-surf: V oxel-based implicit surface representation. IEEE Transactions on Visualization and Computer Graphics , 2022.",
+            "ref_ids": [
+                "21"
+            ],
+            "1": "Inspired by different representations of neural field including voxel grid [21] and point cloud [43], NICE-SLAM [50] and V ox-Fusion [44] chose voxel grid to perform tracking and mapping instead of a single neural network which is limited by expression ability and forgetting problem."
+        },
+        "ImTooth: Neural Implicit Tooth for Dental Augmented Reality": {
+            "authors": [
+                "Hai Li",
+                "Hongjia Zhai",
+                "Xingrui Yang",
+                "Zhirong Wu",
+                "Yihao Zheng",
+                "Haofan Wang",
+                "Jianchao Wu",
+                "Hujun Bao",
+                "Guofeng Zhang"
+            ],
+            "url": "http://www.cad.zju.edu.cn/home/gfzhang/papers/VR-TVCG-2023-ImTooth/ImTooth.pdf",
+            "ref_texts": "[27] H. Li, X. Yang, H. Zhai, Y. Liu, H. Bao, and G. Zhang. Vox-Surf: Voxelbased implicit surface representation. IEEE Transactions on Visualization and Computer Graphics, pp. 1\u201312, 2022.",
+            "ref_ids": [
+                "27"
+            ],
+            "1": "Different from other methods, we use the plaster teeth models as our reconstruction target and learn a voxelsbased neural implicit representation [27] which is editable and flexible.",
+            "2": "To reconstruct highquality results of the large-scale scene, V ox-Surf [27] adopts a sparse voxel structure to divide the spatial regions and store the geometry features in the nodes of the voxel.",
+            "3": "To reconstruct the detail of the teeth model, we adopt the idea of voxel-based neural implicit representation proposed in Vox-Surf[27], which is flexible and lightweight compared to other methods [36, 58, 62, 63].",
+            "4": "Although V ox-Surf [27] relieves the latter step, an accurate 6 DoF pose is still necessary.",
+            "5": "From left to right, we show the RGB image of the plaster model, scanned surface (ground truth), and the surface reconstructed by the COLMAP [46,47], NeuS [58], Vox-Surf [27], our proposed ImTooth, respectively.",
+            "6": "We adopt the surfaceaware voxel resampling strategy [27] after 30,000 iterations.",
+            "7": "We compare our method with the traditional reconstruction method, COLMAP [46, 47], and the recent implicit surface reconstruction method, NeuS [58], V ox-Surf [27].",
+            "8": "[27] H."
+        }
+    }
+}

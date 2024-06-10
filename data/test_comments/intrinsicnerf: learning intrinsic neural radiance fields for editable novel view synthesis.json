@@ -1,0 +1,32 @@
+{
+    "title": "intrinsicnerf: learning intrinsic neural radiance fields for editable novel view synthesis",
+    "id": 5,
+    "valid_pdf_number": "2/3",
+    "matched_pdf_number": "1/2",
+    "matched_rate": 0.5,
+    "citations": {
+        "PVO: Panoptic visual odometry": {
+            "authors": [
+                "Weicai Ye",
+                "Xinyue Lan",
+                "Shuo Chen",
+                "Yuhang Ming",
+                "Xingyuan Yu",
+                "Hujun Bao",
+                "Zhaopeng Cui",
+                "Guofeng Zhang"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Ye_PVO_Panoptic_Visual_Odometry_CVPR_2023_paper.pdf",
+            "ref_texts": ""
+        },
+        "GeneAvatar: Generic Expression-Aware Volumetric Head Avatar Editing from a Single Image": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2404.02152",
+            "ref_texts": "[63] Weicai Ye, Shuo Chen, Chong Bao, Hujun Bao, Marc Pollefeys, Zhaopeng Cui, and Guofeng Zhang. Intrinsicnerf: Learning intrinsic neural radiance fields for editable novel view synthesis. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 339\u2013351, 2023. 2",
+            "ref_ids": [
+                "63"
+            ],
+            "1": "Neural Radiance Field [33] has exhibited great reconstruction and rendering qualities in SLAM [62, 73], scene editing [5, 58\u201360, 64] and relighting [63, 66, 67], especially promoting the emergence of many 3D avatar reconstruction [4, 16, 53, 68, 69, 76] and generation [50, 52, 54]."
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "title": "mobile3drecon: real-time monocular 3d reconstruction on a mobile phone",
+    "id": 3,
+    "valid_pdf_number": "3/5",
+    "matched_pdf_number": "2/3",
+    "matched_rate": 0.6666666666666666,
+    "citations": {
+        "Coli-ba: Compact linearization based solver for bundle adjustment": {
+            "authors": [
+                "Zhichao Ye",
+                "Guanglin Li",
+                "Haomin Liu",
+                "Zhaopeng Cui",
+                "Hujun Bao",
+                "Guofeng Zhang"
+            ],
+            "url": "http://www.cad.zju.edu.cn/home/gfzhang/papers/CoLi/CoLi.pdf",
+            "ref_texts": "[45] X. Yang, L. Zhou, H. Jiang, Z. Tang, Y. Wang, H. Bao, and G. Zhang. Mobile3DRecon: Real-time Monocular 3D Reconstruction on a Mobile Phone. IEEE Transactions on Visualization and Computer Graphics, 26(12):3446\u20133456, 2020.",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Facing large scenes, the convergence becomes extremely slow, resulting in many offline reconstruction systems timecosting [3,35, 45].",
+            "2": "[45] X."
+        },
+        "Depth Completion with Multiple Balanced Bases and Confidence for Dense Monocular SLAM": {
+            "authors": [],
+            "url": "https://arxiv.org/pdf/2309.04145",
+            "ref_texts": "[60] Xingbin Yang, Liyang Zhou, Hanqing Jiang, Zhongliang Tang, Yuanbo Wang, Hujun Bao, and Guofeng Zhang. Mobile3DRecon: real-time monocular 3d reconstruction on a mobile phone. IEEE Transactions on Visualization and Computer Graphics, 26(12):3446\u20133456, 2020.",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "Our fusion method is based on an online incremental mesh generation method Mobile3DRecon [60]."
+        },
+        "The present and future of mixed reality in China": {
+            "authors": [],
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3481619",
+            "ref_texts": "25. Yang, X., Zhou, L., Jiang, H. Tang, Z., Wang, Y., Bao, H., Zhang, G. Mobile3DRecon: real-time monocular ",
+            "ref_ids": [
+                "25"
+            ]
+        }
+    }
+}
