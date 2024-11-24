@@ -1,0 +1,133 @@
+{
+    "title": "dp-mvs: detail preserving multi-view surface reconstruction of large-scale scenes",
+    "id": 0,
+    "valid_pdf_number": "9/12",
+    "matched_pdf_number": "7/9",
+    "matched_rate": 0.7777777777777778,
+    "citations": {
+        "Emo-mvs: Error-aware multi-scale iterative variable optimizer for efficient multi-view stereo": {
+            "authors": [
+                "Huizhou Zhou",
+                "Haoliang Zhao",
+                "Qi Wang",
+                "Liang Lei",
+                "Gefei Hao",
+                "Yusheng Xu",
+                "Zhen Ye"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/14/23/6085/pdf",
+            "ref_texts": "37. Zhou, L.; Zhang, Z.; Jiang, H.; Sun, H.; Bao, H.; Zhang, G. DP-MVS: Detail Preserving Multi-View Surface Reconstruction of Large-Scale Scenes. Remote Sens. 2021 ,13, 4569. [CrossRef]",
+            "ref_ids": [
+                "37"
+            ]
+        },
+        "Hash Encoding and Brightness Correction in 3D Industrial and Environmental Reconstruction of Tidal Flat Neural Radiation": {
+            "authors": [
+                "Huilin Ge",
+                "Biao Wang",
+                "Zhiyu Zhu",
+                "Jin Zhu",
+                "Nan Zhou"
+            ],
+            "url": "https://www.mdpi.com/1424-8220/24/5/1451/pdf",
+            "ref_texts": "20. Zhou, L.; Zhang, Z.; Jiang, H.; Sun, H.; Bao, H.; Zhang, G. DP-MVS: Detail Preserving Multi-View Surface Reconstruction of Large-Scale Scenes. Remote Sens. 2021 ,13, 4569. [CrossRef]",
+            "ref_ids": [
+                "20"
+            ],
+            "1": "With advancements in photogrammetry, methods for generating dense point clouds and constructing 3D triangular grid models from 2D images have evolved, incorporating sparse reconstruction (structure from motion, SFM) [18,19] and dense reconstruction (multiple-view stereo, MVS) [20,21]."
+        },
+        "Geometric Prior-Guided Self-Supervised Learning for Multi-View Stereo": {
+            "authors": [
+                "Fenghao Zhang",
+                "Wanjuan Su",
+                "Yuhang Qi"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/15/8/2109/pdf",
+            "ref_texts": "24. Zhou, L.; Zhang, Z.; Jiang, H.; Sun, H.; Bao, H.; Zhang, G. DP-MVS: Detail Preserving Multi-View Surface Reconstruction of Large-Scale Scenes. Remote Sens. 2021 ,13, 4569. [CrossRef]",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Gipuma [21], COLMAP [6], ACMM [23], DP-MVS [24], and PatchMatch MVS [25] are PatchMatch-based [26] MVS methods."
+        },
+        "Confidence-Guided Planar-Recovering Multiview Stereo for Weakly Textured Plane of High-Resolution Image Scenes": {
+            "authors": [
+                "Chuanyu Fu",
+                "Nan Huang",
+                "Zijie Huang",
+                "Yongjian Liao",
+                "Xiaoming Xiong",
+                "Xuexi Zhang",
+                "Shuting Cai"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/15/9/2474/pdf",
+            "ref_texts": "2. Zhou, L.; Zhang, Z.; Jiang, H.; Sun, H.; Bao, H.; Zhang, G. DP-MVS: Detail Preserving Multi-View Surface Reconstruction of Large-Scale Scenes. Remote Sens. 2021 ,13, 4569. [CrossRef]",
+            "ref_ids": [
+                "2"
+            ],
+            "1": "[2] focuses on the geometric details of reconstruction, especially the preservation of geometric details of thin structures."
+        },
+        "Large-Scale Mussel Farm Reconstruction with GPS Auxiliary": {
+            "authors": [
+                "J Zhao",
+                "B Xue",
+                "R Vennell"
+            ],
+            "url": "https://openaccess.wgtn.ac.nz/articles/conference_contribution/Large-Scale_Mussel_Farm_Reconstruction_with_GPS_Auxiliary/24633795/1/files/43285662.pdf",
+            "ref_texts": "[24] Zhang, Xiaoshuai, et al. \u201cNerfusion: Fusing radiance fields for largescale scene reconstruction.\u201d Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Some recent approaches leverage deep learning [24], [30], like Neural Radiance Field (NeRF), for large-scale 3D reconstruction.",
+            "2": "To achieve this, we employed the widely utilized COLMAP method [32], [33], a well-established SfM technique widely applied in various studies [24], [30].",
+            "3": "[24] Zhang, Xiaoshuai, et al."
+        },
+        "Gaussian Control with Hierarchical Semantic Graphs in 3D Human Recovery": {
+            "authors": [
+                "H Wang",
+                "W Zhang",
+                "S Liu",
+                "X Zhou",
+                "S Zhang"
+            ],
+            "url": "https://arxiv.org/pdf/2405.12477",
+            "ref_texts": "[45] Liyang Zhou, Zhuang Zhang, Hanqing Jiang, Han Sun, Hujun Bao, and Guofeng Zhang. Dp-mvs: Detail preserving multi-view surface reconstruction of large-scale scenes. Remote Sensing , 13(22):4569, 2021. 1",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Traditional 3D representation methods [3, 6, 10, 14, 22, 37, 45]\n\u2020Corresponding Author."
+        },
+        "Editorial on Special Issue \u201cTechniques and Applications of UAV-Based Photogrammetric 3D Mapping\u201d": {
+            "authors": [
+                "Wanshou Jiang",
+                "San Jiang",
+                "Xiongwu Xiao"
+            ],
+            "url": "https://www.mdpi.com/2072-4292/14/15/3804/pdf",
+            "ref_texts": "5. Zhou, L.; Zhang, Z.; Jiang, H.; Sun, H.; Bao, H.; Zhang, G. DP-MVS: Detail Preserving Multi-View Surface Reconstruction of Large-Scale Scenes. Remote Sens. 2021 ,13, 4569. [CrossRef] Remote Sens. 2022 ,14, 3804 4 of 4",
+            "ref_ids": [
+                "5"
+            ],
+            "1": "[5] proposed a dense matching algorithm, termed DP-MVS, for detail-preserving 3D reconstruction."
+        },
+        "Rekonstruksi Model 3D dari Set Citra Menggunakan Metode SFM-MVS dan Algoritma Poisson": {
+            "authors": [
+                "G Hanbudi",
+                "E Fauzi"
+            ],
+            "url": "http://www.stmik-budidarma.ac.id/ejurnal/index.php/mib/article/viewFile/4126/2804",
+            "ref_texts": "[18] L. Zhou, Z. Zhang, H. Jiang, H. Sun, H. Bao, and G. Zhang, \u201cDP -MVS: Detail Preserving Multi -View Surface Reconstruction of Large -Scale Scenes,\u201d Remote Sensing , vol. 13, no. 22, p. 4569, Nov. 2021, doi: 10.3390/rs13224569. ",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "Furukawa mempresentasikan metode SOTA MVS (State of The Art Multi -View Stereo) yang disebut Patch -based MVS (PMVS) dimana metode ini dimulai de ngan menentukan seed patch (patch awalan) dengan merekonstruksi sekumpulan matched key point yang cocok dan kemudian secara iteratif memperluas patch tersebut [18].",
+            "2": "[18] L."
+        },
+        "\u0395\u03bd\u03c3\u03c9\u03bc\u03ac\u03c4\u03c9\u03c3\u03b7 \u03b4\u03b5\u03c3\u03bc\u03b5\u03cd\u03c3\u03b5\u03c9\u03bd \u03c3\u03c4\u03b7\u03bd \u03c0\u03bf\u03bb\u03c5\u03b5\u03b9\u03ba\u03bf\u03bd\u03b9\u03ba\u03ae \u03b1\u03bd\u03b1\u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ae": {
+            "authors": [
+                "\u0395\u039a \u03a3\u03c4\u03b1\u03b8\u03bf\u03c0\u03bf\u03cd\u03bb\u03bf\u03c5"
+            ],
+            "url": "https://dspace.lib.ntua.gr/xmlui/bitstream/handle/123456789/56640/PhD_Stathopoulou_Integrating_scene_priors_in_MVS.pdf",
+            "ref_texts": "206 BIBLIOGRAPHY. Zheng, E., Dunn, E., Jojic, V., and Frahm, J.-M. Patchmatch based joint view selection and depthmap estimation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition , pages 1510\u20131517, 2014. Zheng, S., Jayasumana, S., Romera-Paredes, B., Vineet, V., Su, Z., Du, D., Huang, C., and Torr, P. H. Conditional random fields as recurrent neural networks. In Proceedings of the IEEE international conference on computer vision , pages 1529\u20131537, 2015. Zhong, Y., Dai, Y., and Li, H. Self-supervised learning for stereo matching with selfimproving ability. arXiv preprint arXiv:1709.00930 , 2017. Zhou, C., Zhang, H., Shen, X., and Jia, J. Unsupervised learning of stereo matching. InProceedings of the IEEE International Conference on Computer Vision , pages 1567\u20131575, 2017. Zhou, K., Meng, X., and Cheng, B. Review of stereo matching algorithms based on deep learning. Computational intelligence and neuroscience , 2020, 2020. Zhou, L., Zhang, Z., Jiang, H., Sun, H., Bao, H., and Zhang, G. Dp-mvs: Detail preserving multi-view surface reconstruction of large-scale scenes. Remote Sensing , 13"
+        }
+    }
+}

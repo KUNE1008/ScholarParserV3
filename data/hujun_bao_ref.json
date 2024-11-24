@@ -1,0 +1,958 @@
+{
+    "dp-mvs: detail preserving multi-view surface reconstruction of large-scale scenes": [
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Efficient High-Quality Vectorized Modeling of Large-Scale Scenes",
+                "author": [
+                    "X Xiang",
+                    "H Jiang",
+                    "Y Yu",
+                    "D Shen",
+                    "J Zhen",
+                    "H Bao"
+                ],
+                "pub_year": "2024",
+                "venue": "International Journal of …",
+                "abstract": "We present a novel high-quality vectorized modeling pipeline for large-scale scenes. With a reconstructed dense point cloud and its corresponding multi-view source images and"
+            },
+            "filled": false,
+            "gsrank": 1,
+            "pub_url": "https:\/\/link.springer.com\/article\/10.1007\/s11263-024-02059-x",
+            "author_id": [
+                "4Pu4JaIAAAAJ",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:wpi-RjQjj-0J:scholar.google.com\/&output=cite&scirp=0&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Zhuang%2BZhang%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Han%2BSun%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D14014375612644375216%26scipsc%3D1&citilm=1&update_op=library_add&info=wpi-RjQjj-0J&ei=eeBmZu-bFPevy9YP8_Oc4AY&json=",
+            "num_citations": 0,
+            "url_related_articles": "\/scholar?q=related:wpi-RjQjj-0J:scholar.google.com\/&scioq=author:%22Liyang+Zhou%22+OR+author:%22Zhuang+Zhang%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Han+Sun%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Hybrid-MVS: Robust Multi-View Reconstruction with Hybrid Optimization of Visual and Depth Cues",
+                "author": [
+                    "C Li",
+                    "L Zhou",
+                    "H Jiang",
+                    "Z Zhang",
+                    "X Xiang"
+                ],
+                "pub_year": "2023",
+                "venue": "… on Circuits and …",
+                "abstract": "Consumer-level RGB-D cameras have been widely used for dense 3D reconstruction of scenes. Especially for textureless or non-lambertian surfaces, consumer RGB-D cameras"
+            },
+            "filled": false,
+            "gsrank": 2,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/10126077\/",
+            "author_id": [
+                "",
+                "",
+                "4K67pwIAAAAJ",
+                "",
+                "4Pu4JaIAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:X78SrVJdBoQJ:scholar.google.com\/&output=cite&scirp=1&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Zhuang%2BZhang%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Han%2BSun%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D14014375612644375216%26scipsc%3D1&citilm=1&update_op=library_add&info=X78SrVJdBoQJ&ei=eeBmZu-bFPevy9YP8_Oc4AY&json=",
+            "num_citations": 2,
+            "citedby_url": "\/scholar?cites=9513393872539139935&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:X78SrVJdBoQJ:scholar.google.com\/&scioq=author:%22Liyang+Zhou%22+OR+author:%22Zhuang+Zhang%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Han+Sun%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5"
+        }
+    ],
+    "vox-surf: voxel-based implicit surface representation": [
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Sine: Semantic-driven image-based nerf editing with prior-guided editing field",
+                "author": [
+                    "C Bao",
+                    "Y Zhang",
+                    "B Yang",
+                    "T Fan"
+                ],
+                "pub_year": "2023",
+                "venue": "Proceedings of the …",
+                "abstract": "Despite the great success in 2D editing using user-friendly tools, such as Photoshop, semantic strokes, or even text prompts, similar capabilities in 3D areas are still limited, either"
+            },
+            "filled": false,
+            "gsrank": 1,
+            "pub_url": "http:\/\/openaccess.thecvf.com\/content\/CVPR2023\/html\/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper.html",
+            "author_id": [
+                "HRHCYq0AAAAJ",
+                "F15ODMIAAAAJ",
+                "b03C_YgAAAAJ",
+                "siv1RXUAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:xZDPxp4AYiEJ:scholar.google.com\/&output=cite&scirp=0&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=xZDPxp4AYiEJ&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 65,
+            "citedby_url": "\/scholar?cites=2405485832909590725&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:xZDPxp4AYiEJ:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/openaccess.thecvf.com\/content\/CVPR2023\/papers\/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper.pdf"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation",
+                "author": [
+                    "X Yang",
+                    "H Li",
+                    "H Zhai",
+                    "Y Ming",
+                    "Y Liu"
+                ],
+                "pub_year": "2022",
+                "venue": "2022 IEEE International …",
+                "abstract": "In this work, we present a dense tracking and mapping system named Vox-Fusion, which seamlessly fuses neural implicit representations with traditional volumetric fusion methods"
+            },
+            "filled": false,
+            "gsrank": 2,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/9995035\/",
+            "author_id": [
+                "",
+                "vn89ztQAAAAJ",
+                "alXpF8wAAAAJ",
+                "Q91BzegAAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:lEtd6DL0bv0J:scholar.google.com\/&output=cite&scirp=1&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=lEtd6DL0bv0J&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 90,
+            "citedby_url": "\/scholar?cites=18261802038517910420&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:lEtd6DL0bv0J:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2210.15858"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Cp-slam: Collaborative neural point-based slam system",
+                "author": [
+                    "J Hu",
+                    "M Mao",
+                    "H Bao",
+                    "G Zhang"
+                ],
+                "pub_year": "2024",
+                "venue": "Advances in Neural …",
+                "abstract": "This paper presents a collaborative implicit neural simultaneous localization and mapping (SLAM) system with RGB-D image sequences, which consists of complete front-end and"
+            },
+            "filled": false,
+            "gsrank": 3,
+            "pub_url": "https:\/\/proceedings.neurips.cc\/paper_files\/paper\/2023\/hash\/7c10e259c7e56fa218ee03d9ae7d728e-Abstract-Conference.html",
+            "author_id": [
+                "0CJPK3IAAAAJ",
+                "WO2JOnQAAAAJ",
+                "",
+                "F0xfpXAAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:d4q01Xj7_GsJ:scholar.google.com\/&output=cite&scirp=2&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=d4q01Xj7_GsJ&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 7,
+            "citedby_url": "\/scholar?cites=7781370752589400695&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:d4q01Xj7_GsJ:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/proceedings.neurips.cc\/paper_files\/paper\/2023\/file\/7c10e259c7e56fa218ee03d9ae7d728e-Paper-Conference.pdf"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Mirror-NeRF: Learning Neural Radiance Fields for Mirrors with Whitted-Style Ray Tracing",
+                "author": [
+                    "J Zeng",
+                    "C Bao",
+                    "R Chen",
+                    "Z Dong",
+                    "G Zhang"
+                ],
+                "pub_year": "2023",
+                "venue": "Proceedings of the 31st …",
+                "abstract": "Recently, Neural Radiance Fields (NeRF) has exhibited significant success in novel view synthesis, surface reconstruction, etc. However, since no physical reflection is considered in"
+            },
+            "filled": false,
+            "gsrank": 4,
+            "pub_url": "https:\/\/dl.acm.org\/doi\/abs\/10.1145\/3581783.3611857",
+            "author_id": [
+                "",
+                "HRHCYq0AAAAJ",
+                "",
+                "GHOQKCwAAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:cNRfGoBQ-zAJ:scholar.google.com\/&output=cite&scirp=3&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=cNRfGoBQ-zAJ&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 3,
+            "citedby_url": "\/scholar?cites=3529503244103439472&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:cNRfGoBQ-zAJ:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2308.03280"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "RD-VIO: Robust visual-inertial odometry for mobile augmented reality in dynamic environments",
+                "author": [
+                    "J Li",
+                    "X Pan",
+                    "G Huang",
+                    "Z Zhang",
+                    "N Wang"
+                ],
+                "pub_year": "2024",
+                "venue": "… on Visualization and …",
+                "abstract": "It is typically challenging for visual or visual-inertial odometry systems to handle the problems of dynamic scenes and pure rotation. In this work, we design a novel visual-inertial"
+            },
+            "filled": false,
+            "gsrank": 5,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/10398497\/",
+            "author_id": [
+                "",
+                "",
+                "",
+                "",
+                "YH2gTvQAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:ZxUrQQUqnW0J:scholar.google.com\/&output=cite&scirp=4&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=ZxUrQQUqnW0J&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 4,
+            "citedby_url": "\/scholar?cites=7898515523534263655&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:ZxUrQQUqnW0J:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/html\/2310.15072v3"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Benchmarking Neural Radiance Fields for Autonomous Robots: An Overview",
+                "author": [
+                    "Y Ming",
+                    "X Yang",
+                    "W Wang",
+                    "Z Chen",
+                    "J Feng"
+                ],
+                "pub_year": "2024",
+                "venue": "arXiv preprint arXiv …",
+                "abstract": "Neural Radiance Fields (NeRF) have emerged as a powerful paradigm for 3D scene representation, offering high-fidelity renderings and reconstructions from a set of sparse and"
+            },
+            "filled": false,
+            "gsrank": 6,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2405.05526",
+            "author_id": [
+                "Q91BzegAAAAJ",
+                "",
+                "ybDo1ykAAAAJ",
+                "X6MkScIAAAAJ",
+                "ohufCxwAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:9u3Byd7-Kz4J:scholar.google.com\/&output=cite&scirp=5&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=9u3Byd7-Kz4J&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 0,
+            "url_related_articles": "\/scholar?q=related:9u3Byd7-Kz4J:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2405.05526"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "ImTooth: Neural Implicit Tooth for Dental Augmented Reality",
+                "author": [
+                    "H Li",
+                    "H Zhai",
+                    "X Yang",
+                    "Z Wu",
+                    "Y Zheng"
+                ],
+                "pub_year": "2023",
+                "venue": "… on Visualization and …",
+                "abstract": "The combination of augmented reality (AR) and medicine is an important trend in current research. The powerful display and interaction capabilities of the AR system can assist"
+            },
+            "filled": false,
+            "gsrank": 7,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/10051634\/",
+            "author_id": [
+                "vn89ztQAAAAJ",
+                "alXpF8wAAAAJ",
+                "",
+                "",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:EgtsCPT8upIJ:scholar.google.com\/&output=cite&scirp=6&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=EgtsCPT8upIJ&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 2,
+            "citedby_url": "\/scholar?cites=10573041200249178898&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:EgtsCPT8upIJ:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "http:\/\/www.cad.zju.edu.cn\/home\/gfzhang\/papers\/VR-TVCG-2023-ImTooth\/ImTooth.pdf"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "CP-SLAM: collaborative neural point-based SLAM",
+                "author": [
+                    "J Hu",
+                    "M Mao",
+                    "H Bao",
+                    "G Zhang",
+                    "Z Cui"
+                ],
+                "pub_year": "2023",
+                "venue": "Proceedings of the 37th …",
+                "abstract": "This paper presents a collaborative implicit neural simultaneous localization and mapping (SLAM) system with RGB-D image sequences, which consists of complete front-end and"
+            },
+            "filled": false,
+            "gsrank": 8,
+            "pub_url": "https:\/\/dl.acm.org\/doi\/abs\/10.5555\/3666122.3667834",
+            "author_id": [
+                "",
+                "",
+                "",
+                "",
+                "vwIRwDUAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:INxmjQSIruQJ:scholar.google.com\/&output=cite&scirp=7&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Hai%2BLi%2522%2BOR%2Bauthor:%2522Xingrui%2BYang%2522%2BOR%2Bauthor:%2522Hongjia%2BZhai%2522%2BOR%2Bauthor:%2522Yuqian%2BLiu%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D5180827651924664422%26scipsc%3D1&citilm=1&update_op=library_add&info=INxmjQSIruQJ&ei=huBmZrX5KqOZy9YPjry9-AY&json=",
+            "num_citations": 0,
+            "url_related_articles": "\/scholar?q=related:INxmjQSIruQJ:scholar.google.com\/&scioq=author:%22Hai+Li%22+OR+author:%22Xingrui+Yang%22+OR+author:%22Hongjia+Zhai%22+OR+author:%22Yuqian+Liu%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5"
+        }
+    ],
+    "mobile3dscanner: an online 3d scanner for high-quality object reconstruction with a mobile device": [
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Hybrid-MVS: Robust Multi-View Reconstruction with Hybrid Optimization of Visual and Depth Cues",
+                "author": [
+                    "C Li",
+                    "L Zhou",
+                    "H Jiang",
+                    "Z Zhang",
+                    "X Xiang"
+                ],
+                "pub_year": "2023",
+                "venue": "… on Circuits and …",
+                "abstract": "Consumer-level RGB-D cameras have been widely used for dense 3D reconstruction of scenes. Especially for textureless or non-lambertian surfaces, consumer RGB-D cameras"
+            },
+            "filled": false,
+            "gsrank": 1,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/10126077\/",
+            "author_id": [
+                "",
+                "",
+                "4K67pwIAAAAJ",
+                "",
+                "4Pu4JaIAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:X78SrVJdBoQJ:scholar.google.com\/&output=cite&scirp=0&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xiaojun%2BXiang%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Yihao%2BYu%2522%2BOR%2Bauthor:%2522Chenchen%2BLi%2522%2BOR%2Bauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Danpeng%2BChen%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D315135683778561761%26scipsc%3D1&citilm=1&update_op=library_add&info=X78SrVJdBoQJ&ei=kuBmZuy8CNS-6rQP_NO1gAc&json=",
+            "num_citations": 2,
+            "citedby_url": "\/scholar?cites=9513393872539139935&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:X78SrVJdBoQJ:scholar.google.com\/&scioq=author:%22Xiaojun+Xiang%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Yihao+Yu%22+OR+author:%22Chenchen+Li%22+OR+author:%22Xingbin+Yang%22+OR+author:%22Danpeng+Chen%22+OR+author:%22Hujun+Bao%22&hl=en&as_sdt=2005&sciodt=0,5"
+        }
+    ],
+    "mobile3drecon: real-time monocular 3d reconstruction on a mobile phone": [
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Neuralrecon: Real-time coherent 3d reconstruction from monocular video",
+                "author": [
+                    "J Sun",
+                    "Y Xie",
+                    "L Chen",
+                    "X Zhou"
+                ],
+                "pub_year": "2021",
+                "venue": "Proceedings of the IEEE …",
+                "abstract": "We present a novel framework named NeuralRecon for real-time 3D scene reconstruction from a monocular video. Unlike previous methods that estimate single-view depth maps"
+            },
+            "filled": false,
+            "gsrank": 1,
+            "pub_url": "https:\/\/openaccess.thecvf.com\/content\/CVPR2021\/html\/Sun_NeuralRecon_Real-Time_Coherent_3D_Reconstruction_From_Monocular_Video_CVPR_2021_paper.html?ref=https:\/\/githubhelp.com",
+            "author_id": [
+                "dYLKTPUAAAAJ",
+                "86y0joUAAAAJ",
+                "kXf9gvkAAAAJ",
+                "E1vVpg4AAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:6se2x9CTVkcJ:scholar.google.com\/&output=cite&scirp=0&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=6se2x9CTVkcJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 244,
+            "citedby_url": "\/scholar?cites=5140458549603125226&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:6se2x9CTVkcJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "http:\/\/openaccess.thecvf.com\/content\/CVPR2021\/papers\/Sun_NeuralRecon_Real-Time_Coherent_3D_Reconstruction_From_Monocular_Video_CVPR_2021_paper.pdf"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "DP-MVS: Detail preserving multi-view surface reconstruction of large-scale scenes",
+                "author": [
+                    "L Zhou",
+                    "Z Zhang",
+                    "H Jiang",
+                    "H Sun",
+                    "H Bao",
+                    "G Zhang"
+                ],
+                "pub_year": "2021",
+                "venue": "Remote Sensing",
+                "abstract": "This paper presents an accurate and robust dense 3D reconstruction system for detail preserving surface modeling of large-scale scenes from multi-view images, which we named"
+            },
+            "filled": false,
+            "gsrank": 2,
+            "pub_url": "https:\/\/www.mdpi.com\/2072-4292\/13\/22\/4569",
+            "author_id": [
+                "",
+                "",
+                "4K67pwIAAAAJ",
+                "",
+                "",
+                "F0xfpXAAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:sLqQTF4QfcIJ:scholar.google.com\/&output=cite&scirp=1&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=sLqQTF4QfcIJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 17,
+            "citedby_url": "\/scholar?cites=14014375612644375216&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:sLqQTF4QfcIJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/www.mdpi.com\/2072-4292\/13\/22\/4569"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Coli-ba: Compact linearization based solver for bundle adjustment",
+                "author": [
+                    "Z Ye",
+                    "G Li",
+                    "H Liu",
+                    "Z Cui",
+                    "H Bao"
+                ],
+                "pub_year": "2022",
+                "venue": "IEEE Transactions on …",
+                "abstract": "Bundle adjustment (BA) is widely used in SLAM and SfM, which are key technologies in Augmented Reality. For real-time SLAM and large-scale SfM, the efficiency of BA is of great"
+            },
+            "filled": false,
+            "gsrank": 3,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/9873988\/",
+            "author_id": [
+                "",
+                "oKiVEIUAAAAJ",
+                "SeErxokAAAAJ",
+                "vwIRwDUAAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:Qoal7CKDAyAJ:scholar.google.com\/&output=cite&scirp=2&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=Qoal7CKDAyAJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 6,
+            "citedby_url": "\/scholar?cites=2306831620166223426&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:Qoal7CKDAyAJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "http:\/\/www.cad.zju.edu.cn\/home\/gfzhang\/papers\/CoLi\/CoLi.pdf"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Mobile3dscanner: An online 3d scanner for high-quality object reconstruction with a mobile device",
+                "author": [
+                    "X Xiang",
+                    "H Jiang",
+                    "G Zhang",
+                    "Y Yu",
+                    "C Li"
+                ],
+                "pub_year": "2021",
+                "venue": "… on Visualization and …",
+                "abstract": "We present a novel online 3D scanning system for high-quality object reconstruction with a mobile device, called Mobile3DScanner. Using a mobile device equipped with an"
+            },
+            "filled": false,
+            "gsrank": 4,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/9523840\/",
+            "author_id": [
+                "4Pu4JaIAAAAJ",
+                "4K67pwIAAAAJ",
+                "F0xfpXAAAAAJ",
+                "",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:4carFzyWXwQJ:scholar.google.com\/&output=cite&scirp=3&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=4carFzyWXwQJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 9,
+            "citedby_url": "\/scholar?cites=315135683778561761&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:4carFzyWXwQJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "NeuralRecon: Real-Time Coherent 3D Scene Reconstruction from Monocular Video",
+                "author": [
+                    "X Chen",
+                    "J Sun",
+                    "Y Xie",
+                    "H Bao"
+                ],
+                "pub_year": "2024",
+                "venue": "IEEE Transactions on …",
+                "abstract": "We present a novel framework named NeuralRecon for real-time 3D scene reconstruction from a monocular video. Unlike previous methods that estimate single-view depth maps"
+            },
+            "filled": false,
+            "gsrank": 5,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/10508111\/",
+            "author_id": [
+                "RXVYDIMAAAAJ",
+                "dYLKTPUAAAAJ",
+                "",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:5UH2fsGK9-wJ:scholar.google.com\/&output=cite&scirp=4&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=5UH2fsGK9-wJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 0,
+            "url_related_articles": "\/scholar?q=related:5UH2fsGK9-wJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Hybrid-MVS: Robust Multi-View Reconstruction with Hybrid Optimization of Visual and Depth Cues",
+                "author": [
+                    "C Li",
+                    "L Zhou",
+                    "H Jiang",
+                    "Z Zhang",
+                    "X Xiang"
+                ],
+                "pub_year": "2023",
+                "venue": "… on Circuits and …",
+                "abstract": "Consumer-level RGB-D cameras have been widely used for dense 3D reconstruction of scenes. Especially for textureless or non-lambertian surfaces, consumer RGB-D cameras"
+            },
+            "filled": false,
+            "gsrank": 6,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/10126077\/",
+            "author_id": [
+                "",
+                "",
+                "4K67pwIAAAAJ",
+                "",
+                "4Pu4JaIAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:X78SrVJdBoQJ:scholar.google.com\/&output=cite&scirp=5&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=X78SrVJdBoQJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 2,
+            "citedby_url": "\/scholar?cites=9513393872539139935&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:X78SrVJdBoQJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Depth Completion with Multiple Balanced Bases and Confidence for Dense Monocular SLAM",
+                "author": [
+                    "W Xie",
+                    "G Chu",
+                    "Q Qian",
+                    "Y Yu",
+                    "H Li",
+                    "D Chen"
+                ],
+                "pub_year": "2023",
+                "venue": "arXiv preprint arXiv …",
+                "abstract": "Dense SLAM based on monocular cameras does indeed have immense application value in the field of AR\/VR, especially when it is performed on a mobile device. In this paper, we"
+            },
+            "filled": false,
+            "gsrank": 7,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2309.04145",
+            "author_id": [
+                "",
+                "",
+                "",
+                "",
+                "vn89ztQAAAAJ",
+                "MtzDW_cAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:N51tWy5DyCkJ:scholar.google.com\/&output=cite&scirp=6&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=N51tWy5DyCkJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 0,
+            "url_related_articles": "\/scholar?q=related:N51tWy5DyCkJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2309.04145"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "The present and future of mixed reality in China",
+                "author": [
+                    "G Zhang",
+                    "X Zhou",
+                    "F Tian",
+                    "H Zha",
+                    "Y Wang"
+                ],
+                "pub_year": "2021",
+                "venue": "Communications of the …",
+                "abstract": "VIRTUAL REALITY (VR) technology can be used to generate a lifelike virtual world, allowing users to roam freely in this virtual world and interact with it. Augmented reality (AR) is a"
+            },
+            "filled": false,
+            "gsrank": 8,
+            "pub_url": "https:\/\/dl.acm.org\/doi\/abs\/10.1145\/3481619",
+            "author_id": [
+                "F0xfpXAAAAAJ",
+                "E1vVpg4AAAAJ",
+                "",
+                "LQxSSgYAAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:Khk7ofVk5ZAJ:scholar.google.com\/&output=cite&scirp=7&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Xingbin%2BYang%2522%2BOR%2Bauthor:%2522Liyang%2BZhou%2522%2BOR%2Bauthor:%2522Hanqing%2BJiang%2522%2BOR%2Bauthor:%2522Zhongliang%2BTang%2522%2BOR%2Bauthor:%2522Yuanbo%2BWang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D15042815765761907865%26scipsc%3D1&citilm=1&update_op=library_add&info=Khk7ofVk5ZAJ&ei=peBmZp72C5-N6rQP7sGoyA0&json=",
+            "num_citations": 1,
+            "citedby_url": "\/scholar?cites=10440862317263132970&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:Khk7ofVk5ZAJ:scholar.google.com\/&scioq=author:%22Xingbin+Yang%22+OR+author:%22Liyang+Zhou%22+OR+author:%22Hanqing+Jiang%22+OR+author:%22Zhongliang+Tang%22+OR+author:%22Yuanbo+Wang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/dl.acm.org\/doi\/pdf\/10.1145\/3481619"
+        }
+    ],
+    "vox-fusion: dense tracking and mapping with voxel-based neural implicit representation": [],
+    "intrinsicnerf: learning intrinsic neural radiance fields for editable novel view synthesis": [
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "PVO: Panoptic visual odometry",
+                "author": [
+                    "W Ye",
+                    "X Lan",
+                    "S Chen",
+                    "Y Ming",
+                    "X Yu"
+                ],
+                "pub_year": "2023",
+                "venue": "Proceedings of the …",
+                "abstract": "We present PVO, a novel panoptic visual odometry framework to achieve more comprehensive modeling of the scene motion, geometry, and panoptic segmentation"
+            },
+            "filled": false,
+            "gsrank": 1,
+            "pub_url": "http:\/\/openaccess.thecvf.com\/content\/CVPR2023\/html\/Ye_PVO_Panoptic_Visual_Odometry_CVPR_2023_paper.html",
+            "author_id": [
+                "qsMRsnsAAAAJ",
+                "-D7I__AAAAAJ",
+                "vlu_3ksAAAAJ",
+                "Q91BzegAAAAJ",
+                "WOiFPRgAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:pTVm13_GxHcJ:scholar.google.com\/&output=cite&scirp=0&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Weicai%2BYe%2522%2BOR%2Bauthor:%2522Shuo%2BChen%2522%2BOR%2Bauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Marc%2BPollefeys%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D14692015739151869874%26scipsc%3D1&citilm=1&update_op=library_add&info=pTVm13_GxHcJ&ei=v-BmZvfdHp_Uy9YPg8ap0AY&json=",
+            "num_citations": 20,
+            "citedby_url": "\/scholar?cites=8630241038325659045&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:pTVm13_GxHcJ:scholar.google.com\/&scioq=author:%22Weicai+Ye%22+OR+author:%22Shuo+Chen%22+OR+author:%22Chong+Bao%22+OR+author:%22Hujun+Bao%22+OR+author:%22Marc+Pollefeys%22+OR+author:%22Zhaopeng+Cui%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "http:\/\/openaccess.thecvf.com\/content\/CVPR2023\/papers\/Ye_PVO_Panoptic_Visual_Odometry_CVPR_2023_paper.pdf"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "GeneAvatar: Generic Expression-Aware Volumetric Head Avatar Editing from a Single Image",
+                "author": [
+                    "C Bao",
+                    "Y Zhang",
+                    "Y Li",
+                    "X Zhang",
+                    "B Yang",
+                    "H Bao"
+                ],
+                "pub_year": "2024",
+                "venue": "arXiv preprint arXiv …",
+                "abstract": "Recently, we have witnessed the explosive growth of various volumetric representations in modeling animatable head avatars. However, due to the diversity of frameworks, there is no"
+            },
+            "filled": false,
+            "gsrank": 2,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2404.02152",
+            "author_id": [
+                "HRHCYq0AAAAJ",
+                "",
+                "",
+                "",
+                "b03C_YgAAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:U8HWfy2SXKsJ:scholar.google.com\/&output=cite&scirp=1&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Weicai%2BYe%2522%2BOR%2Bauthor:%2522Shuo%2BChen%2522%2BOR%2Bauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Marc%2BPollefeys%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D14692015739151869874%26scipsc%3D1&citilm=1&update_op=library_add&info=U8HWfy2SXKsJ&ei=v-BmZvfdHp_Uy9YPg8ap0AY&json=",
+            "num_citations": 1,
+            "citedby_url": "\/scholar?cites=12347905002459021651&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:U8HWfy2SXKsJ:scholar.google.com\/&scioq=author:%22Weicai+Ye%22+OR+author:%22Shuo+Chen%22+OR+author:%22Chong+Bao%22+OR+author:%22Hujun+Bao%22+OR+author:%22Marc+Pollefeys%22+OR+author:%22Zhaopeng+Cui%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2404.02152"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "NeRF-Det++: Incorporating Semantic Cues and Perspective-aware Depth Supervision for Indoor Multi-View 3D Detection",
+                "author": [
+                    "C Huang",
+                    "Y Hou",
+                    "W Ye",
+                    "D Huang",
+                    "X Huang"
+                ],
+                "pub_year": "2024",
+                "venue": "arXiv preprint arXiv …",
+                "abstract": "NeRF-Det has achieved impressive performance in indoor multi-view 3D detection by innovatively utilizing NeRF to enhance representation learning. Despite its notable"
+            },
+            "filled": false,
+            "gsrank": 3,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2402.14464",
+            "author_id": [
+                "e14HvOcAAAAJ",
+                "o9mX9sUAAAAJ",
+                "qsMRsnsAAAAJ",
+                "",
+                "rp7mYNsAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:PwHMsYZXaMgJ:scholar.google.com\/&output=cite&scirp=2&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Weicai%2BYe%2522%2BOR%2Bauthor:%2522Shuo%2BChen%2522%2BOR%2Bauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Marc%2BPollefeys%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D14692015739151869874%26scipsc%3D1&citilm=1&update_op=library_add&info=PwHMsYZXaMgJ&ei=v-BmZvfdHp_Uy9YPg8ap0AY&json=",
+            "num_citations": 2,
+            "citedby_url": "\/scholar?cites=14440888441183666495&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:PwHMsYZXaMgJ:scholar.google.com\/&scioq=author:%22Weicai+Ye%22+OR+author:%22Shuo+Chen%22+OR+author:%22Chong+Bao%22+OR+author:%22Hujun+Bao%22+OR+author:%22Marc+Pollefeys%22+OR+author:%22Zhaopeng+Cui%22+OR+author:%22Guofeng+Zhang%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2402.14464"
+        }
+    ],
+    "sine: semantic-driven image-based nerf editing with prior-guided editing field": [
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Intrinsicnerf: Learning intrinsic neural radiance fields for editable novel view synthesis",
+                "author": [
+                    "W Ye",
+                    "S Chen",
+                    "C Bao",
+                    "H Bao"
+                ],
+                "pub_year": "2023",
+                "venue": "Proceedings of the …",
+                "abstract": "Existing inverse rendering combined with neural rendering methods can only perform editable novel view synthesis on object-specific scenes, while we present intrinsic neural"
+            },
+            "filled": false,
+            "gsrank": 1,
+            "pub_url": "http:\/\/openaccess.thecvf.com\/content\/ICCV2023\/html\/Ye_IntrinsicNeRF_Learning_Intrinsic_Neural_Radiance_Fields_for_Editable_Novel_View_ICCV_2023_paper.html",
+            "author_id": [
+                "qsMRsnsAAAAJ",
+                "vlu_3ksAAAAJ",
+                "HRHCYq0AAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:smeYHnmG5MsJ:scholar.google.com\/&output=cite&scirp=0&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Yinda%2BZhang%2522%2BOR%2Bauthor:%2522Bangbang%2BYang%2522%2BOR%2Bauthor:%2522Tianxing%2BFan%2522%2BOR%2Bauthor:%2522Zesong%2BYang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2405485832909590725%26scipsc%3D1&citilm=1&update_op=library_add&info=smeYHnmG5MsJ&ei=1OBmZq_OA6OZy9YPjry9-AY&json=",
+            "num_citations": 24,
+            "citedby_url": "\/scholar?cites=14692015739151869874&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:smeYHnmG5MsJ:scholar.google.com\/&scioq=author:%22Chong+Bao%22+OR+author:%22Yinda+Zhang%22+OR+author:%22Bangbang+Yang%22+OR+author:%22Tianxing+Fan%22+OR+author:%22Zesong+Yang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Zhaopeng+Cui%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/openaccess.thecvf.com\/content\/ICCV2023\/papers\/Ye_IntrinsicNeRF_Learning_Intrinsic_Neural_Radiance_Fields_for_Editable_Novel_View_ICCV_2023_paper.pdf"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Dreamspace: Dreaming your room space with text-driven panoramic texture propagation",
+                "author": [
+                    "B Yang",
+                    "W Dong",
+                    "L Ma",
+                    "W Hu",
+                    "X Liu"
+                ],
+                "pub_year": "2024",
+                "venue": "2024 IEEE Conference …",
+                "abstract": "Diffusion-based methods have achieved prominent success in generating 2D media. However, accomplishing similar proficiencies for scene-level mesh texturing in 3D spatial"
+            },
+            "filled": false,
+            "gsrank": 2,
+            "pub_url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/10494081\/",
+            "author_id": [
+                "b03C_YgAAAAJ",
+                "o-cC48AAAAAJ",
+                "S4HGIIUAAAAJ",
+                "xDuDhwcAAAAJ",
+                "JVn2lhcAAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:b9IWn9YpllAJ:scholar.google.com\/&output=cite&scirp=1&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Yinda%2BZhang%2522%2BOR%2Bauthor:%2522Bangbang%2BYang%2522%2BOR%2Bauthor:%2522Tianxing%2BFan%2522%2BOR%2Bauthor:%2522Zesong%2BYang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2405485832909590725%26scipsc%3D1&citilm=1&update_op=library_add&info=b9IWn9YpllAJ&ei=1OBmZq_OA6OZy9YPjry9-AY&json=",
+            "num_citations": 7,
+            "citedby_url": "\/scholar?cites=5806874771309646447&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:b9IWn9YpllAJ:scholar.google.com\/&scioq=author:%22Chong+Bao%22+OR+author:%22Yinda+Zhang%22+OR+author:%22Bangbang+Yang%22+OR+author:%22Tianxing+Fan%22+OR+author:%22Zesong+Yang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Zhaopeng+Cui%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2310.13119.pdf?!%5B%E5%9B%BE%E7%89%87%5D(https:\/\/mmbiz.qpic.cn\/sz_mmbiz_png\/tGynVEPiakb9lruS9sv1HdDZ7vhDqdSHTglAfA3BTYFnjkbjPq1ScXWEdvTr7zziboby5kzsWghbScUOPKSziag0g\/640?wx_fmt=png)"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Dyn-e: Local appearance editing of dynamic neural radiance fields",
+                "author": [
+                    "S Zhang",
+                    "S Peng",
+                    "Y ShenTu",
+                    "Q Shuai",
+                    "T Chen"
+                ],
+                "pub_year": "2023",
+                "venue": "arXiv preprint arXiv …",
+                "abstract": "Recently, the editing of neural radiance fields (NeRFs) has gained considerable attention, but most prior works focus on static scenes while research on the appearance editing of"
+            },
+            "filled": false,
+            "gsrank": 3,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2307.12909",
+            "author_id": [
+                "FUDsZkEAAAAJ",
+                "l9NCksYAAAAJ",
+                "oIrYzk8AAAAJ",
+                "51lY6vIAAAAJ",
+                "ZuDfZR8AAAAJ"
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:iGlmor0L1QIJ:scholar.google.com\/&output=cite&scirp=2&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Yinda%2BZhang%2522%2BOR%2Bauthor:%2522Bangbang%2BYang%2522%2BOR%2Bauthor:%2522Tianxing%2BFan%2522%2BOR%2Bauthor:%2522Zesong%2BYang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2405485832909590725%26scipsc%3D1&citilm=1&update_op=library_add&info=iGlmor0L1QIJ&ei=1OBmZq_OA6OZy9YPjry9-AY&json=",
+            "num_citations": 6,
+            "citedby_url": "\/scholar?cites=204082267216570760&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:iGlmor0L1QIJ:scholar.google.com\/&scioq=author:%22Chong+Bao%22+OR+author:%22Yinda+Zhang%22+OR+author:%22Bangbang+Yang%22+OR+author:%22Tianxing+Fan%22+OR+author:%22Zesong+Yang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Zhaopeng+Cui%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2307.12909"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Mirror-NeRF: Learning Neural Radiance Fields for Mirrors with Whitted-Style Ray Tracing",
+                "author": [
+                    "J Zeng",
+                    "C Bao",
+                    "R Chen",
+                    "Z Dong",
+                    "G Zhang"
+                ],
+                "pub_year": "2023",
+                "venue": "Proceedings of the 31st …",
+                "abstract": "Recently, Neural Radiance Fields (NeRF) has exhibited significant success in novel view synthesis, surface reconstruction, etc. However, since no physical reflection is considered in"
+            },
+            "filled": false,
+            "gsrank": 4,
+            "pub_url": "https:\/\/dl.acm.org\/doi\/abs\/10.1145\/3581783.3611857",
+            "author_id": [
+                "",
+                "HRHCYq0AAAAJ",
+                "",
+                "GHOQKCwAAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:cNRfGoBQ-zAJ:scholar.google.com\/&output=cite&scirp=3&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Yinda%2BZhang%2522%2BOR%2Bauthor:%2522Bangbang%2BYang%2522%2BOR%2Bauthor:%2522Tianxing%2BFan%2522%2BOR%2Bauthor:%2522Zesong%2BYang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2405485832909590725%26scipsc%3D1&citilm=1&update_op=library_add&info=cNRfGoBQ-zAJ&ei=1OBmZq_OA6OZy9YPjry9-AY&json=",
+            "num_citations": 3,
+            "citedby_url": "\/scholar?cites=3529503244103439472&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:cNRfGoBQ-zAJ:scholar.google.com\/&scioq=author:%22Chong+Bao%22+OR+author:%22Yinda+Zhang%22+OR+author:%22Bangbang+Yang%22+OR+author:%22Tianxing+Fan%22+OR+author:%22Zesong+Yang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Zhaopeng+Cui%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2308.03280"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "GeneAvatar: Generic Expression-Aware Volumetric Head Avatar Editing from a Single Image",
+                "author": [
+                    "C Bao",
+                    "Y Zhang",
+                    "Y Li",
+                    "X Zhang",
+                    "B Yang",
+                    "H Bao"
+                ],
+                "pub_year": "2024",
+                "venue": "arXiv preprint arXiv …",
+                "abstract": "Recently, we have witnessed the explosive growth of various volumetric representations in modeling animatable head avatars. However, due to the diversity of frameworks, there is no"
+            },
+            "filled": false,
+            "gsrank": 5,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2404.02152",
+            "author_id": [
+                "HRHCYq0AAAAJ",
+                "",
+                "",
+                "",
+                "b03C_YgAAAAJ",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:U8HWfy2SXKsJ:scholar.google.com\/&output=cite&scirp=4&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Yinda%2BZhang%2522%2BOR%2Bauthor:%2522Bangbang%2BYang%2522%2BOR%2Bauthor:%2522Tianxing%2BFan%2522%2BOR%2Bauthor:%2522Zesong%2BYang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2405485832909590725%26scipsc%3D1&citilm=1&update_op=library_add&info=U8HWfy2SXKsJ&ei=1OBmZq_OA6OZy9YPjry9-AY&json=",
+            "num_citations": 1,
+            "citedby_url": "\/scholar?cites=12347905002459021651&as_sdt=2005&sciodt=0,5&hl=en",
+            "url_related_articles": "\/scholar?q=related:U8HWfy2SXKsJ:scholar.google.com\/&scioq=author:%22Chong+Bao%22+OR+author:%22Yinda+Zhang%22+OR+author:%22Bangbang+Yang%22+OR+author:%22Tianxing+Fan%22+OR+author:%22Zesong+Yang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Zhaopeng+Cui%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2404.02152"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Neural Rendering and Its Hardware Acceleration: A Review",
+                "author": [
+                    "X Yan",
+                    "J Xu",
+                    "Y Huo",
+                    "H Bao"
+                ],
+                "pub_year": "2024",
+                "venue": "arXiv preprint arXiv:2402.00028",
+                "abstract": "Neural rendering is a new image and video generation method based on deep learning. It combines the deep learning model with the physical knowledge of computer graphics, to"
+            },
+            "filled": false,
+            "gsrank": 6,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2402.00028",
+            "author_id": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:qrk5WDtQRVAJ:scholar.google.com\/&output=cite&scirp=5&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Yinda%2BZhang%2522%2BOR%2Bauthor:%2522Bangbang%2BYang%2522%2BOR%2Bauthor:%2522Tianxing%2BFan%2522%2BOR%2Bauthor:%2522Zesong%2BYang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2405485832909590725%26scipsc%3D1&citilm=1&update_op=library_add&info=qrk5WDtQRVAJ&ei=1OBmZq_OA6OZy9YPjry9-AY&json=",
+            "num_citations": 0,
+            "url_related_articles": "\/scholar?q=related:qrk5WDtQRVAJ:scholar.google.com\/&scioq=author:%22Chong+Bao%22+OR+author:%22Yinda+Zhang%22+OR+author:%22Bangbang+Yang%22+OR+author:%22Tianxing+Fan%22+OR+author:%22Zesong+Yang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Zhaopeng+Cui%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2402.00028"
+        },
+        {
+            "container_type": "Publication",
+            "source": "PUBLICATION_SEARCH_SNIPPET",
+            "bib": {
+                "title": "Coin3D: Controllable and Interactive 3D Assets Generation with Proxy-Guided Conditioning",
+                "author": [
+                    "W Dong",
+                    "B Yang",
+                    "L Ma",
+                    "X Liu",
+                    "L Cui",
+                    "H Bao"
+                ],
+                "pub_year": "2024",
+                "venue": "arXiv preprint arXiv …",
+                "abstract": "As humans, we aspire to create media content that is both freely willed and readily controlled. Thanks to the prominent development of generative techniques, we now can"
+            },
+            "filled": false,
+            "gsrank": 7,
+            "pub_url": "https:\/\/arxiv.org\/abs\/2405.08054",
+            "author_id": [
+                "o-cC48AAAAAJ",
+                "b03C_YgAAAAJ",
+                "S4HGIIUAAAAJ",
+                "JVn2lhcAAAAJ",
+                "",
+                ""
+            ],
+            "url_scholarbib": "\/scholar?hl=en&q=info:B7On4VApFJQJ:scholar.google.com\/&output=cite&scirp=6&hl=en",
+            "url_add_sclib": "\/citations?hl=en&xsrf=&continue=\/scholar%3Fq%3Dauthor:%2522Chong%2BBao%2522%2BOR%2Bauthor:%2522Yinda%2BZhang%2522%2BOR%2Bauthor:%2522Bangbang%2BYang%2522%2BOR%2Bauthor:%2522Tianxing%2BFan%2522%2BOR%2Bauthor:%2522Zesong%2BYang%2522%2BOR%2Bauthor:%2522Hujun%2BBao%2522%2BOR%2Bauthor:%2522Guofeng%2BZhang%2522%2BOR%2Bauthor:%2522Zhaopeng%2BCui%2522%26hl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2405485832909590725%26scipsc%3D1&citilm=1&update_op=library_add&info=B7On4VApFJQJ&ei=1OBmZq_OA6OZy9YPjry9-AY&json=",
+            "num_citations": 0,
+            "url_related_articles": "\/scholar?q=related:B7On4VApFJQJ:scholar.google.com\/&scioq=author:%22Chong+Bao%22+OR+author:%22Yinda+Zhang%22+OR+author:%22Bangbang+Yang%22+OR+author:%22Tianxing+Fan%22+OR+author:%22Zesong+Yang%22+OR+author:%22Hujun+Bao%22+OR+author:%22Guofeng+Zhang%22+OR+author:%22Zhaopeng+Cui%22&hl=en&as_sdt=2005&sciodt=0,5",
+            "eprint_url": "https:\/\/arxiv.org\/pdf\/2405.08054"
+        }
+    ]
+}

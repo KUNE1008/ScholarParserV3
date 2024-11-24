@@ -1,0 +1,1258 @@
+{
+    "title": "vox-fusion: dense tracking and mapping with voxel-based neural implicit representation",
+    "id": 4,
+    "valid_pdf_number": "71/79",
+    "matched_pdf_number": "64/71",
+    "matched_rate": 0.9014084507042254,
+    "citations": {
+        "Sine: Semantic-driven image-based nerf editing with prior-guided editing field": {
+            "authors": [
+                "Chong Bao",
+                "Yinda Zhang",
+                "Bangbang Yang",
+                "Tianxing Fan",
+                "Zesong Yang",
+                "Hujun Bao",
+                "Guofeng Zhang",
+                "Zhaopeng Cui"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Bao_SINE_Semantic-Driven_Image-Based_NeRF_Editing_With_Prior-Guided_Editing_Field_CVPR_2023_paper.pdf",
+            "ref_texts": "[72] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022. 2",
+            "ref_ids": [
+                "72"
+            ],
+            "1": "Recently, NeRF [42] achieves photo-realistic rendering with volume rendering and inspires many works, including surface reconstruction [31,65, 73], scene editing [4, 18, 67, 70, 71] and generation [22, 51], inverse rendering [5, 76], SLAM [72, 77], etc."
+        },
+        "Progressively optimized local radiance fields for robust view synthesis": {
+            "authors": [
+                "Andreas Meuleman",
+                "Lun Liu",
+                "Chen Gao",
+                "Bin Huang",
+                "Changil Kim",
+                "Min H. Kim",
+                "Johannes Kopf"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Meuleman_Progressively_Optimized_Local_Radiance_Fields_for_Robust_View_Synthesis_CVPR_2023_paper.pdf",
+            "ref_texts": "[45] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. arXiv:2210.15858, 2022. 3",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "V ox-Fusion [45] and Nice-SLAM [53] achieve good pose estimation but are de-signed for RGB-D inputs and require accurate depth: V oxFusion to allocate a sparse voxel grid and Nice-SLAM to determine where to sample along the ray."
+        },
+        "vmap: Vectorised object mapping for neural field slam": {
+            "authors": [
+                "Xin Kong",
+                "Shikun Liu",
+                "Marwan Taher",
+                "Andrew J. Davison"
+            ],
+            "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Kong_vMAP_Vectorised_Object_Mapping_for_Neural_Field_SLAM_CVPR_2023_paper.pdf",
+            "ref_texts": "[40] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-Fusion: Dense tracking andmapping with voxel-based neural implicit representation. In Proceedings of the International Symposium on Mixed and Augmented Reality (ISMAR) , 2022. 2",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "To make implicit representation more scalable and efficient, a group of implicit SLAM systems [25, 35, 40, 45, 48] fused neural fields with conventional volumetric representations."
+        },
+        "Nicer-slam: Neural implicit scene encoding for rgb slam": {
+            "authors": [
+                "Z Zhu",
+                "S Peng",
+                "V Larsson",
+                "Z Cui",
+                "MR Oswald"
+            ],
+            "url": "https://arxiv.org/pdf/2302.03594",
+            "ref_texts": "[67] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022.",
+            "ref_ids": [
+                "67"
+            ],
+            "1": "Although follow-up works [67, 30, 21, 18, 25, 39] try to improve upon NICE-SLAM and iMAP from different perspectives, all of these works still rely on the reliable depth input from RGB-D sensors.",
+            "2": "Many follow-up works improve upon these two works from various perspectives, including efficient scene representation [18, 21], fast optimziation [67], add IMU measurements [25], or different shape representations [39, 30].",
+            "3": "We compare to (a) SOTA neural implicitbased RGB-D SLAM system NICE-SLAM [76] and V oxFusion [67], (b) classic MVS method COLMAP [46], and (c) SOTA dense monocular SLAM system DROIDSLAM [57].",
+            "4": "Unlike recent implicit-based dense SLAM systems [51, 76, 67] which use occupancy to implicitly represent scene geometry, we instead use SDFs."
+        },
+        "Point-slam: Dense neural point cloud-based slam": {
+            "authors": [
+                "Erik Sandstrom",
+                "Yue Li",
+                "Luc Van",
+                "Martin R. Oswald"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Sandstrom_Point-SLAM_Dense_Neural_Point_Cloud-based_SLAM_ICCV_2023_paper.pdf",
+            "ref_texts": "[69] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022. 1, 2, 4, 5, 6, 7, 8",
+            "ref_ids": [
+                "69"
+            ],
+            "1": "To eliminate the potential domain gap between train and test time, recent SLAM methods rely on test time optimization via volume rendering [53, 69, 79].",
+            "2": "18433\n tional approaches, neural scene representations have attractive properties for mapping like improved noise and outlier handling [64], better hole filling and inpainting capabilities for unobserved scene parts [69, 79], and data compression [42, 58].",
+            "3": "Like DTAM [37] or BAD-SLAM [48] recent neural SLAM methods [79, 69, 53] only use a single scene representation for both tracking and mapping but they rely either on a regular grid structure [79, 69] or a single MLP [53].",
+            "4": "These works have led to full dense SLAM pipelines [69, 79, 53, 28], which represent the current most promising trend towards accurate and robust visual SLAM.",
+            "5": "The grid-based representation is perhaps the most explored one and can be further split into methods using dense grids [79, 36, 63, 64, 13, 54, 3, 24, 11, 77, 76, 66, 81], hierarchical octrees [69, 49, 29, 6, 26] and voxel hashing [38, 21, 15, 60, 33] to save memory.",
+            "6": "This is in contrast to voxel-based frameworks [79, 69] which need to carve the empty space between the camera and the surface, thus requiring significantly more samples.",
+            "7": "We primarily compare our method to existing state-of-the-art dense neural RGBD SLAM methods such as NICE-SLAM [79], V ox-Fusion [69] and ESLAM [28].",
+            "8": "We reproduce the results from [69] using the open source code and report the results as V ox-Fusion\u2217.",
+            "9": "86 V oxFusion\u2217[69]Depth L1 [cm] \u21931.",
+            "10": "77\n(a) Office 0\n Office 3\n Room 0 NICE-SLAM [79] V ox-Fusion\u2217[69] Point-SLAM (ours) Ground Truth (b) Figure 3: Reconstruction Performance on Replica [51].",
+            "11": "Office 0\n Room 1\n Room 2 NICE-SLAM [79] V ox-Fusion\u2217[69] Point-SLAM (ours) Ground Truth Figure 4: Rendering Performance on Replica [51] .",
+            "12": "06 V ox-Fusion [69] 0.",
+            "13": "54 V ox-Fusion\u2217[69] 1.",
+            "14": "The grayed numbers of [69] are from the paper that come from a single run which we could not reproduce.",
+            "15": "3a compares our method to NICE-SLAM [79], V oxFusion [69] and ESLAM [28] in terms of the geomet-ric reconstruction accuracy.",
+            "16": "3b compares the mesh reconstructions of NICE-SLAM [79], V oxFusion [69] and our method to the ground truth mesh.",
+            "17": "233 V ox-Fusion\u2217[69]PSNR [dB] \u2191 22.",
+            "18": "For NICE-SLAM [79] and V ox-Fusion [69] we take the numbers from [78].",
+            "19": "76) V ox-Fusion\u2217[69] 3.",
+            "20": "70 V ox-Fusion [69] 8.",
+            "21": "57 N/A V ox-Fusion\u2217[69] 68.",
+            "22": "NICE-SLAM [79] and V ox-Fusion [69] which employ a large voxel size that leads to more averaging and a reduced sensitivity to specularities.",
+            "23": "86 MB V ox-Fusion [69] 12 ms 55 ms 0."
+        },
+        "Nerf-loam: Neural implicit representation for large-scale incremental lidar odometry and mapping": {
+            "authors": [
+                "Junyuan Deng",
+                "Qi Wu",
+                "Xieyuanli Chen",
+                "Songpengcheng Xia",
+                "Zhen Sun",
+                "Guoqing Liu",
+                "Wenxian Yu",
+                "Ling Pei"
+            ],
+            "url": "http://openaccess.thecvf.com/content/ICCV2023/papers/Deng_NeRF-LOAM_Neural_Implicit_Representation_for_Large-Scale_Incremental_LiDAR_Odometry_and_ICCV_2023_paper.pdf",
+            "ref_texts": "[45] Xingrui Y ang, Hai Li, Hongjia Zhai, Y uhang Ming, Y uqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking andmapping with voxel-based neural implicit representation. In2022 IEEE International Symposium on Mixed and Aug-mented Reality (ISMAR) , pages 499\u2013507, 2022.",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Recently, neural radiance fields (NeRF) [32] has shown promising potentials in representing 3D scenes implicitlyusing a neural network and parallelly pose tracking meth-ods [33, 51, 45].",
+            "2": "Compared to the existing 3D representations, the success of neural implicit representation [1, 18, 32, 40, 50] for novelview synthesis attach great attention, and many research in-vestigates the possibility to use this concept realizing simul-taneous localization and mapping (SLAM) [42, 46, 27, 33,51, 45].",
+            "3": "Although [45, 50] adoptan octree-based sparse grid with voxel embeddings and canbe applied in larger areas, the pre-allocated embeddings ortime-consuming loop to search the voxels is not available inoutdoor for both odometry and mapping.",
+            "4": "Different from existing methods [45, 50], we treat the environments dif-ferently when optimizing the SDF values, e.",
+            "5": "Although utilizing the code, the pre-allocate em-beddings [34, 45] or time-consuming one by one search inhash table [50] is not suitable for our task, especially whenit needs to retrieve hundreds of thousands of embeddingsfrom a hash table containing millions of entries."
+        },
+        "Pats: Patch area transportation with subdivision for local feature matching": {
+            "authors": [
+                "Junjie Ni",
+                "Yijin Li",
+                "Zhaoyang Huang",
+                "Hongsheng Li",
+                "Hujun Bao",
+                "Zhaopeng Cui",
+                "Guofeng Zhang"
+            ],
+            "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ni_PATS_Patch_Area_Transportation_With_Subdivision_for_Local_Feature_Matching_CVPR_2023_paper.pdf",
+            "ref_texts": "[62] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In IEEE International Symposium on Mixed and Augmented Reality , pages 499\u2013507. IEEE, 2022.",
+            "ref_ids": [
+                "62"
+            ],
+            "1": "In the past decades, local feature matching [3, 40] has been widely used in a large number of applications such as structure from motion (SfM) [44, 64], simultaneous localization and mapping (SLAM) [30,36,62], visual localization [19,41], object pose estimation [22, 61], etc."
+        },
+        "Recent advances in 3d gaussian splatting": {
+            "authors": [
+                "T Wu",
+                "YJ Yuan",
+                "LX Zhang",
+                "J Yang",
+                "YP Cao"
+            ],
+            "url": "https://arxiv.org/pdf/2403.11134",
+            "ref_texts": "[201] Yang X, Li H, Zhai H, Ming Y, Liu Y, Zhang G. Vox-Fusion: Dense Tracking and Mapping with Voxel-based Neural Implicit Representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , 2022, 499\u2013",
+            "ref_ids": [
+                "201"
+            ],
+            "1": "23 Vox-Fusion [201] 24.",
+            "2": "[201] Yang X, Li H, Zhai H, Ming Y, Liu Y, Zhang G."
+        },
+        "Cp-slam: Collaborative neural point-based slam system": {
+            "authors": [
+                "J Hu",
+                "M Mao",
+                "H Bao",
+                "G Zhang"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/7c10e259c7e56fa218ee03d9ae7d728e-Paper-Conference.pdf",
+            "ref_texts": "[44] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V oxfusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022.",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "Very recently, some methods [36,50,44] exploit the Neural Radiance Fields (NeRF) for dense visual SLAM in a rendering-based optimization framework showing appealing rendering quality in novel view.",
+            "2": "Inspired by different representations of neural field including voxel grid [21] and point cloud [43], NICE-SLAM [50] and V ox-Fusion [44] chose voxel grid to perform tracking and mapping instead of a single neural network which is limited by expression ability and forgetting problem.",
+            "3": "In the single-agent experiment, because we use the rendered loop-closure data, we primarily choose the state-of-the-art neural SLAM systems such as NICE-SLAM [50], V ox-Fusion [44] and ORB-SLAM3 [4] for comparison on the loop-closure dataset.",
+            "4": "71 V ox-Fusion [44]RMSE [cm]\u2193 0.",
+            "5": "V ox-Fusion [44] has incorporated an important modification, implementing a sparse grid that is tailored to the specific scene instead of a dense grid.",
+            "6": "4 present a quantitative analysis of the geometric reconstruction produced by our proposed system in comparison to NICE-SLAM [50] and V ox-Fusion [44].",
+            "7": "33 V ox-Fusion [44]Depth L1 [cm]\u2193 0.",
+            "8": "88MB V ox-Fusion [44] 0."
+        },
+        "Mips-fusion: Multi-implicit-submaps for scalable and robust online neural rgb-d reconstruction": {
+            "authors": [
+                "Y Tang",
+                "J Zhang",
+                "Z Yu",
+                "H Wang",
+                "K Xu"
+            ],
+            "url": "https://arxiv.org/pdf/2308.08741",
+            "ref_texts": "2022. Vox-Fusion: Dense Tracking and Mapping with Voxel-based Neural Implicit Representation. arXiv preprint arXiv:2210.15858 (2022). Yijun Yuan and Andreas N\u00fcchter. 2022. An algorithm for the SE (3)-transformation on neural implicit maps for remapping functions. IEEE Robotics and Automation Letters 7, 3 (2022), 7763\u20137770. Jiazhao Zhang, Yijie Tang, He Wang, and Kai Xu. 2022. ASRO-DIO: Active Subspace Random Optimization Based Depth Inertial Odometry. IEEE Transactions on Robotics (2022). Jiazhao Zhang, Chenyang Zhu, Lintao Zheng, and Kai Xu. 2020. Fusion-aware point convolution for online semantic 3d scene segmentation. In Proc. CVPR . 4534\u20134543. Jiazhao Zhang, Chenyang Zhu, Lintao Zheng, and Kai Xu. 2021. ROSEFusion: random optimization for online dense reconstruction under fast camera motion. ACM Trans. on Graph. (SIGGRAPH) 40, 4 (2021), 1\u201317. Zihan Zhu, Songyou Peng, Viktor Larsson, Weiwei Xu, Hujun Bao, Zhaopeng Cui, Martin R Oswald, and Marc Pollefeys. 2022. Nice-slam: Neural implicit scalable encoding for slam. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition . 12786\u201312796. ACM Trans. Graph., Vol. 40, No. 4, Article 56. Publication date: August 2023.",
+            "ref_ids": [
+                "2022"
+            ],
+            "1": "[2022] propose a unique mapping scheme based on on-the-fly implicits of Hermite Radial Basis Functions (HRBFs) demonstrating good accuracy and robustness of RGB-D reconstruction.",
+            "2": "[2022] propose to represent scene surface using an implicit TSDF and incorporate this representation in the NeRF framework for rendering-based learning.",
+            "3": "[2022] propose a geometric and photometric 3D mapping pipeline from monocular images based on hierarchical volumetric neural radiance fields.",
+            "4": "Yuan and N\u00fcchter [2022] propose an algorithm for the \ud835\udc46\ud835\udc38(3)-transformation of neural implicit maps for remapping in loop closure."
+        },
+        "Compact 3d gaussian splatting for dense visual slam": {
+            "authors": [
+                "T Deng",
+                "Y Chen",
+                "L Zhang",
+                "J Yang",
+                "S Yuan"
+            ],
+            "url": "https://arxiv.org/pdf/2403.11247",
+            "ref_texts": "40. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507",
+            "ref_ids": [
+                "40"
+            ],
+            "1": "Vox-Fusion [40] employs octree architecture for dynamic map scalability.",
+            "2": "R0 R1 R2 Of0 Of1 Of2 Of3 Of4 Vox-Fusion [40] 3.",
+            "3": "0000 0059 0106 0169 0181 0207 Vox-Fusion [40] 26.",
+            "4": "We also compared to other NeRF-based SLAM methods, such as NICE-SLAM [45], Co-SLAM [34], ESLAM [11], Vox-Fusion [40].",
+            "5": "87 Vox-Fusion [40] 11.",
+            "6": "as Vox-Fusion [40], NICE-SLAM [45], Co-SLAM [34], and ESLAM [11].",
+            "7": "R0 R1 R2 Of0 Of1 Of2 Of3 Of4 Vox-Fusion [40]PSNR\u2191 SSIM\u2191 LPIPS \u219324."
+        },
+        "Learning neural implicit through volume rendering with attentive depth fusion priors": {
+            "authors": [
+                "P Hu",
+                "Z Han"
+            ],
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/68637ee6b30276f900bc67320466b69f-Paper-Conference.pdf",
+            "ref_texts": "[83] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , Dec 2022.",
+            "ref_ids": [
+                "83"
+            ]
+        },
+        "UncLe-SLAM: Uncertainty Learning for Dense Neural SLAM": {
+            "authors": [
+                "Erik Sandstrom",
+                "Kevin Ta",
+                "Luc Van",
+                "Martin R. Oswald"
+            ],
+            "url": "https://openaccess.thecvf.com/content/ICCV2023W/UnCV/papers/Sandstrom_UncLe-SLAM_Uncertainty_Learning_for_Dense_Neural_SLAM_ICCVW_2023_paper.pdf",
+            "ref_texts": "[78] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking andmapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Aug-mented Reality (ISMAR), pages 499\u2013507. IEEE, 2022. 1, 6,7,8",
+            "ref_ids": [
+                "78"
+            ],
+            "1": "Introduction Neural scene representations have taken over the 3D reconstruction field by storm [47, 41,12,42] and have recently also been built into SLAM systems [67,81,78] with excellent results for geometric reconstruction, hole filling,and novel view synthesis.",
+            "2": "However, their camera track-ing performance is typically inferior to the one of tradi-tional sparse methods [9] that rely on feature point matching [81, 78].",
+            "3": "Currently, the majority of dense neural SLAM approaches employ a uniformweighting for all pixels during mapping [81, 78,37,80] and tracking [81, 78,67,80].",
+            "4": "In the multi-sensor setting, we also compare to V oxFusion [78] by weighting all depth readings equally.",
+            "5": "We compare to V ox-Fusion [78], a dense neural SLAM system and SenFuNet [58], which is a mapping only frame-work.",
+            "6": "In Table 5we show for SGM+PSMNet fusion that we are able to consistentlyimprove over the single-sensor reconstructions in isolationand over SenFuNet [58] and V oxFusion [78].",
+            "7": "22 V ox-Fusion [78] 6."
+        },
+        "H-Mapping: Real-time Dense Mapping Using Hierarchical Hybrid Representation": {
+            "authors": [
+                "C Jiang",
+                "H Zhang",
+                "P Liu",
+                "Z Yu",
+                "H Cheng"
+            ],
+            "url": "https://arxiv.org/pdf/2306.03207",
+            "ref_texts": "[15] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "15"
+            ],
+            "1": "Several works [13]\u2013[15] employ NeRF to overcome limitations associated with explicit representations and achieve better mapping results in various aspects.",
+            "2": "Our method avoids redundant sample calculations across all keyframes [13] and ensures quality in marginal areas, without increasing the number of training samples [15].",
+            "3": "Numerous studies [13]\u2013[15, 19] have been inspired by NeRF [12] and utilize implicit representation for incremental dense mapping.",
+            "4": "V ox-Fusion [15], instead, only allocates voxels to the area containing the surface, forcing the network to learn more details in those regions.",
+            "5": "V ox-Fusion [15] adds a new keyframe based on the ratio of newly allocated voxels to the currently observed voxels.",
+            "6": "SDF-based Volume rendering Like V ox-Fusion [15], we only sample points along the ray that intersects with any voxel.",
+            "7": "Optimization Process 1) Loss Function: We apply loss functions like V ox-Fusion [15]: RGB Loss (Lrgb), Depth Loss (Ld), Free Space Loss (Lfs) and SDF Loss (Lsd f) on a batch of rays R.",
+            "8": "C OMPARED WITH NICE-SLAM [14] AND VOX-FUSION [15], OUR APPROACH YIELDS BETTER RESULTS IN ALL THE METRICS .",
+            "9": "2) Baselines: We select two advanced NeRF-based dense RGB-D SLAM methods currently open-source, NICE-SLAM\n[14] and V ox-Fusion [15] for comparison.",
+            "10": "[15] X."
+        },
+        "Neural implicit dense semantic slam": {
+            "authors": [
+                "Y Haghighi",
+                "S Kumar",
+                "JP Thiran",
+                "L Van Gool"
+            ],
+            "url": "https://arxiv.org/pdf/2304.14560",
+            "ref_texts": "[21] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.[22] J. L. Schonberger and J.-M. Frahm, \u201cStructure-from-motion revisited,\u201d inProceedings of the IEEE conference on computer vision and pattern recognition , 2016, pp. 4104\u20134113.",
+            "ref_ids": [
+                "21",
+                "22"
+            ],
+            "1": "216V ox-Fusion [21]PSNR [dB]\u2191 23.",
+            "2": "247COLMAP [22]PSNR [dB]\u2191 20.",
+            "3": "[21] X.",
+            "4": "[22] J."
+        },
+        "Rgb-d mapping and tracking in a plenoxel radiance field": {
+            "authors": [
+                "Andreas L. Teigen",
+                "Yeonsoo Park",
+                "Annette Stahl",
+                "Rudolf Mester"
+            ],
+            "url": "https://openaccess.thecvf.com/content/WACV2024/papers/Teigen_RGB-D_Mapping_and_Tracking_in_a_Plenoxel_Radiance_Field_WACV_2024_paper.pdf",
+            "ref_texts": "[35] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022. 3, 6, 7, 8",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "Due to NeRF\u2019s simple formulation of dense mapping and its small storage size, several authors have attempted to use NeRF as a map representation in dense SLAM algorithms [31, 35, 40].",
+            "2": "V ox-Fusion [35] Figure 2.",
+            "3": "Both of these subsets have been the standard for comparison in previous works [31, 35, 40].",
+            "4": "Therefore, to draw comparisons with existing approaches, we select NICE-SLAM [40], and V ox-Fusion [35] as competing methods due to their status as state-of-the-art algorithms for radiance field-based simultaneous localization and mapping.",
+            "5": ")(ms) V ox-Fusion [35]ATE [m]\u2193 0.",
+            "6": "(m/pixel) \u2193 V ox-Fusion [35] 19.",
+            "7": ")(ms) V ox-Fusion [35]ATE [m]\u2193 0."
+        },
+        "Gaussian splatting slam": {
+            "authors": [
+                "H Matsuki",
+                "R Murai",
+                "PHJ Kelly",
+                "AJ Davison"
+            ],
+            "url": "https://arxiv.org/pdf/2312.06741",
+            "ref_texts": "[45] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In Proceedings of the International Symposium on Mixed and Augmented Reality (ISMAR) , 2022.",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "In the RGBD case, we compare against neural-implicit SLAM methods [8, 9, 29, 35, 41, 45, 48] which are also map-centric, rendering-based and do not perform loop closure.",
+            "2": "07 V ox-Fusion [45] 3.",
+            "3": "07 V ox-Fusion [45] 1.",
+            "4": "54 V ox-Fusion[45] 24.",
+            "5": "For the RGB-D case, numbers for NICE-SLAM [48], DI-Fusion [8], V ox-Fusion [45], PointSLAM [29] are taken from Point-SLAM [29], and numbers for iMAP [35], BAD-SLAM [31], Kintinous [42], ORBSLAM [21] are from iMAP [35], and ald all the other baselines: ESLAM [9], Co-SLAM [41] are from each individual papers.",
+            "6": "233 V ox-Fusion [45]PSNR[dB] \u2191 22.",
+            "7": "85 V ox-Fusion [45] 2."
+        },
+        "Ro-map: Real-time multi-object mapping with neural radiance fields": {
+            "authors": [
+                "X Han",
+                "H Liu",
+                "Y Ding",
+                "L Yang"
+            ],
+            "url": "https://arxiv.org/pdf/2304.05735",
+            "ref_texts": "[31] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Subsequent works [29], [30] have made further improvements, including the integration with traditional voxel grids [31] and different shape representations [32].",
+            "2": "[31] X."
+        },
+        "Loner: Lidar only neural representations for real-time slam": {
+            "authors": [
+                "S Isaacson",
+                "PC Kung",
+                "M Ramanagopal"
+            ],
+            "url": "https://arxiv.org/pdf/2309.04937",
+            "ref_texts": "[22] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality , 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "Recently, several more papers have introduced architectures and encodings to improve neuralimplicit SLAM\u2019s memory efficiency, computation speed, and accuracy [19, 20, 21, 22].",
+            "2": "[22] X."
+        },
+        "PIN-SLAM: LiDAR SLAM Using a Point-Based Implicit Neural Representation for Achieving Global Map Consistency": {
+            "authors": [
+                "Y Pan",
+                "X Zhong",
+                "L Wiesmann",
+                "T Posewsky"
+            ],
+            "url": "https://arxiv.org/pdf/2401.09101",
+            "ref_texts": "[101] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In Proc. of the Intl. Symposium on Mixed and Augmented Reality (ISMAR) , 2022.",
+            "ref_ids": [
+                "101"
+            ],
+            "1": "Consequently, several mapping and SLAM systems based on neural implicit representation have been proposed, mainly for RGB-D cameras operating indoor [29], [71], [79], [91], [101], [112] but also for LiDAR sensors operating outdoor [12], [111].",
+            "2": "In the realm of mapping and SLAM from a stream of RGB-D data, several works propose to use a single MLP [2], [55], [79] and a scalable hybrid representations combining dense or sparse local latent features and a shallow MLP [26], [29], [71], [91], [92], [101], [112] to model the geometry or radiance field of the scene and optionally track the camera within the scene.",
+            "3": "They use an octree-based feature grid [101], [111].",
+            "4": "The de facto optimization target in previous RGB-D based neural implicit SLAM approaches [71], [79], [101], [112] is the depth rendering loss, which can be seen as related to the point-to-point metric with projection-based data association.",
+            "5": "05 V ox-Fusion [101] 1.",
+            "6": "[101] X."
+        },
+        "Gs-slam: Dense visual slam with 3d gaussian splatting": {
+            "authors": [
+                "C Yan",
+                "D Qu",
+                "D Wang",
+                "D Xu",
+                "Z Wang",
+                "B Zhao"
+            ],
+            "url": "https://arxiv.org/pdf/2311.11700",
+            "ref_texts": "[48] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. ISMAR , pages 499\u2013507, 2022. 2, 5, 6, 7, 8",
+            "ref_ids": [
+                "48"
+            ],
+            "1": "For example, NICE-SLAM [55] integrates MLPs with multiresolution voxel grids, enabling large scene reconstruction, and V ox-Fusion [48] employs octree expansion for dynamic map scalability, while ESLAM [11] and Point-SLAM [27] utilize tri-planes and neural point clouds respectively to improve the mapping capability.",
+            "2": "Following [11, 27, 41, 48, 55], we use 8 scenes from the Replica dataset for localization, mesh reconstruction, and rendering quality comparison.",
+            "3": "We compare our method with existing SOTA NeRF-based dense visual SLAM: NICE-SLAM [55], V oxFusion [48], CoSLAM [41], ESLAM [11] and PointSLAM [27].",
+            "4": "Our method surpasses iMAP [35], NICE-SLAM [55] and V oxfusion [48], and achieves a comparable performance, average 3.",
+            "5": "06 V ox-Fusion\u2217[48] 1.",
+            "6": "3 V ox-Fusion\u2217[48] 3.",
+            "7": "86 V oxFus ion [48]Depth L1 \u21931.",
+            "8": "It is noticeable that GS-SLAM achieves 386 FPS rendering speed on average, which is 100\u00d7faster than the second-best method V ox-Fusion [48].",
+            "9": "Room 0 Room 1 Room 2 Office 3NICE-SLAM [55]\n V ox-Fusion [48]\n CoSLAM [41]\n ESLAM [11]\n Ours Ground Truth Figure 4.",
+            "10": "48 MB V ox-Fusion [48] 0.",
+            "11": "233 V ox-Fusion\u2217[48]PSNR [dB] \u219122.",
+            "12": "front-to-back order rather than the volume rendering technique used by current NeRF-Based SLAM [11, 27, 35, 41, 48, 53, 55]."
+        },
+        "NeRF-VO: Real-Time Sparse Visual Odometry with Neural Radiance Fields": {
+            "authors": [
+                "J Naumann",
+                "B Xu",
+                "S Leutenegger",
+                "X Zuo"
+            ],
+            "url": "https://arxiv.org/pdf/2312.13471",
+            "ref_texts": "[51] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and 10 mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507, 2022. 2, 3",
+            "ref_ids": [
+                "51"
+            ],
+            "1": "Lately, numerous works have aimed at integrating SLAM with neural implicit mapping [24, 34, 38, 45, 51, 57].",
+            "2": "Subsequent works aimed at enhancing the scene representation [34, 45, 51], introducing implicit semantic encoding [24], and integrating inertial measurements [22]."
+        },
+        "Sni-slam: Semantic neural implicit slam": {
+            "authors": [
+                "S Zhu",
+                "G Wang",
+                "H Blum",
+                "J Liu",
+                "L Song"
+            ],
+            "url": "https://arxiv.org/pdf/2311.11016",
+            "ref_texts": "[50] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022. 2, 3, 4, 6, 7",
+            "ref_ids": [
+                "50"
+            ],
+            "1": "Following the advantages of implicit representation, NeRF-based SLAM [16, 40, 46, 50, 54] methods have been developed.",
+            "2": "V ox-Fusion [50] is based on octree management for incremental mapping.",
+            "3": "We utilize feature planes [16] to store features, which saves storage space compared with voxel grid [50, 54].",
+            "4": "Another approach [50] utilizes the decoder network to obtain geometric and color information from a single feature.",
+            "5": "503 V ox-Fusion [50] 2.",
+            "6": "For SLAM accuracy, we compare our method with state-of-the-art NeRF-based dense visual SLAM methods [16, 37, 40, 46, 50, 54].",
+            "7": "V ox-Fusion [50] achieves the highest Accuracy (cm) because it only reconstructs observed areas and ignores errors in predicted unseen regions, but this strategy results in nearly worst Completion (cm) andCompletion ratio (%) metrics compared with other NeRF-SLAM methods.",
+            "8": "69 V ox-Fusion [50] 8.",
+            "9": "87 V ox-Fusion [50] 3.",
+            "10": "2M V ox-Fusion [50] 2.",
+            "11": "Following previous methods [16, 46, 50, 54], we evaluate tracking accuracy on the ScanNet dataset [5]."
+        },
+        "A review of visual SLAM for robotics: evolution, properties, and future applications": {
+            "authors": [
+                "B Al-Tawil",
+                "T Hempel",
+                "A Abdelrahman"
+            ],
+            "url": "https://www.frontiersin.org/articles/10.3389/frobt.2024.1347985/pdf",
+            "ref_texts": "24, 7048\u20137060. doi: 10.1109/tits.2023.3258526 Wu, W., Guo, L., Gao, H., You, Z., Liu, Y., and Chen, Z. (2022). Yolo-slam: a semantic slam system towards dynamic environment with geometric constraint. NeuralComput. Appl.34, 6011\u20136026. doi: 10.1007/s00521-021-06764-3 Xiao, L., Wang, J., Qiu, X., Rong, Z., and Zou, X. (2019). Dynamic-slam: semantic monocular visual localization and mapping based on deep learning in dynamic environment. RoboticsAut.Syst. 117, 1\u201316. doi: 10.1016/j.robot.2019.03.012 Xu, C., Liu, Z., and Li, Z. (2021). Robust visual-inertial navigation system for low precision sensors under indoor and outdoor environments. Remote Sens. 13, 772. doi:10.3390/rs13040772 Yan, L., Hu, X., Zhao, L., Chen, Y., Wei, P., and Xie, H. (2022). Dgs-slam: a fast and robust rgbd slam in dynamic environments combined by geometric and semantic information. RemoteSens. 14, 795. doi: 10.3390/rs14030795 Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., and Zhang, G. (2022). \u201cVox-fusion: dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) (IEEE), 499\u2013507. Yousif, K., Bab-Hadiashar, A., and Hoseinnezhad, R. (2015). An overview to visual odometry and visual slam: applications to mobile robotics. Intell.Ind.Syst. 1, 289\u2013311. doi:10.1007/s40903-015-0032-7 Zang, Q., Zhang, K., Wang, L., and Wu, L. (2023). An adaptive orb-slam3 system for outdoor dynamic environments. Sensors 23, 1359. doi: 10.3390/s23031359 Zhang, J., Zhu, C., Zheng, L., and Xu, K. (2021a). Rosefusion: random optimization for online dense reconstruction under fast camera motion. ACMTrans.Graph.(TOG)"
+        },
+        "Semgauss-slam: Dense semantic gaussian splatting slam": {
+            "authors": [
+                "S Zhu",
+                "R Qin",
+                "G Wang",
+                "J Liu",
+                "H Wang"
+            ],
+            "url": "https://arxiv.org/pdf/2403.07494",
+            "ref_texts": "[31] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V oxfusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022.",
+            "ref_ids": [
+                "31"
+            ],
+            "1": "Following this, several works [31,32,33,34,35,36,37] introduce more efficient scene representation, such as hash-based feature grid and feature plane, to achieve more accurate SLAM performance.",
+            "2": "We compare our method with the existing state of-the-art dense visual SLAM, including NeRF-based SLAM [30,33,32,34,31] and 3DGS-based SLAM [17].",
+            "3": "233 V ox-Fusion [31] 2.",
+            "4": "30 V ox-Fusion [31] 68."
+        },
+        "Gaussian-slam: Photo-realistic dense slam with gaussian splatting": {
+            "authors": [
+                "V Yugay",
+                "Y Li",
+                "T Gevers",
+                "MR Oswald"
+            ],
+            "url": "https://arxiv.org/pdf/2312.10070",
+            "ref_texts": "78. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE",
+            "ref_ids": [
+                "78"
+            ],
+            "1": "These efforts have led to the development of comprehensive dense SLAM systems [34,54,63,78,85,88,89], showing a trend in the pursuit of precise and reliable visual SLAM.",
+            "2": "They further divide into methods using dense grids [3,9,11,28,44,64,70\u201373,86,87,89], hierarchical octrees [6,30,31,36,57,78] and voxel hashing [13,20,41,46,67] for efficient memory management.",
+            "3": "We primarily compare our method to existing state-ofthe-art dense neural RGBD SLAM methods such as NICE-SLAM [89], VoxFusion [78], ESLAM [34], and Point-SLAM [53].",
+            "4": "233 Vox-Fusion [78]PSNR\u219122.",
+            "5": "441 Vox-Fusion [78]PSNR\u2191 15.",
+            "6": "548 Vox-Fusion [78]PSNR\u219119.",
+            "7": "7 we compare our method to NICESLAM [89], Vox-Fusion [78], ESLAM [34], Point-SLAM [53], and concurrent SplaTAM [23] in terms of the geometric reconstruction accuracy on the Replica dataset [59].",
+            "8": "95 Vox-Fusion [78] 0.",
+            "9": "3 Vox-Fusion [78] 3.",
+            "10": "70 Vox-Fusion [78] 68.",
+            "11": "9 Vox-Fusion [78]Depth L1 [cm] \u21931.",
+            "12": "64 Vox-Fusion [78] 98 1."
+        },
+        "A survey on 3d gaussian splatting": {
+            "authors": [
+                "G Chen",
+                "W Wang"
+            ],
+            "url": "https://arxiv.org/pdf/2401.03890",
+            "ref_texts": "[196] X. Yang, H. Li, H. Zhai, Y. Ming, Y. Liu, and G. Zhang, \u201cVoxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "196"
+            ],
+            "1": "58 Vox-Fusion [196] [ISMAR22] 1.",
+            "2": "23 Vox-Fusion [196] [ISMAR22]PSNR \u2191 22.",
+            "3": "\u2022Benchmarking Algorithms: For performance comparison, we involve four recent papers which introduce 3D Gaussians into their systems [116]\u2013[119], as well as three dense SLAM methods [196], [197], [199].",
+            "4": "[196] X."
+        },
+        "Swift-Mapping: Online Neural Implicit Dense Mapping in Urban Scenes": {
+            "authors": [
+                "Ke Wu",
+                "Kaizhao Zhang",
+                "Mingzhe Gao",
+                "Jieru Zhao",
+                "Zhongxue Gan",
+                "Wenchao Ding"
+            ],
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/28420/28820",
+            "ref_texts": "6055 Roessle, B.; Barron, J. T.; Mildenhall, B.; Srinivasan, P. P.; and Nie\u00dfner, M. 2022. Dense depth priors for neural radiance fields from sparse input views. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 12892\u201312901. Rudnev, V.; Elgharib, M.; Smith, W.; Liu, L.; Golyanik, V.; and Theobalt, C. 2022. NeRF for Outdoor Scene Relighting. InEuropean Conference on Computer Vision (ECCV). Straub, J.; Whelan, T.; Ma, L.; Chen, Y.; Wijmans, E.; Green, S.; Engel, J. J.; Mur-Artal, R.; Ren, C.; Verma, S.; Clarkson, A.; Yan, M.; Budge, B.; Yan, Y.; Pan, X.; Yon, J.; Zou, Y.; Leon, K.; Carter, N.; Briales, J.; Gillingham, T.; Mueggler, E.; Pesqueira, L.; Savva, M.; Batra, D.; Strasdat, H. M.; Nardi, R. D.; Goesele, M.; Lovegrove, S.; and Newcombe, R. 2019. The Replica Dataset: A Digital Replica of Indoor Spaces. arXiv preprint arXiv:1906.05797. Sucar, E.; Liu, S.; Ortiz, J.; and Davison, A. J. 2021. iMAP: Implicit mapping and positioning in real-time. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 6229\u20136238. Sun, C.; Sun, M.; and Chen, H.-T. 2022. Direct voxel grid optimization: Super-fast convergence for radiance fields reconstruction. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 5459\u20135469. Takikawa, T.; Litalien, J.; Yin, K.; Kreis, K.; Loop, C.; Nowrouzezahrai, D.; Jacobson, A.; McGuire, M.; and Fidler, S. 2021. Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes. Tancik, M.; Casser, V.; Yan, X.; Pradhan, S.; Mildenhall, B.; Srinivasan, P. P.; Barron, J. T.; and Kretzschmar, H. 2022. Block-nerf: Scalable large scene neural view synthesis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 8248\u20138258. Xie, Z.; Zhang, J.; Li, W.; Zhang, F.; and Zhang, L. 2023. Snerf: Neural radiance fields for street views. arXiv preprint arXiv:2303.00749. Yang, X.; Li, H.; Zhai, H.; Ming, Y.; Liu, Y.; and Zhang, G. 2022. Vox-Fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 499\u2013507. IEEE. Yu, A.; Li, R.; Tancik, M.; Li, H.; Ng, R.; and Kanazawa, A. 2021. Plenoctrees for real-time rendering of neural radiance fields. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 5752\u20135761. Zeng, C.; Chen, G.; Dong, Y.; Peers, P.; Wu, H.; and Tong, X. 2023. Relighting Neural Radiance Fields with Shadow and Highlight Hints. In ACM SIGGRAPH 2023 Conference Proceedings, 1\u201311. Zhang, X.; Bi, S.; Sunkavalli, K.; Su, H.; and Xu, Z. 2022. Nerfusion: Fusing radiance fields for large-scale scene reconstruction. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 5449\u20135458. Zhang, X.; Srinivasan, P. P.; Deng, B.; Debevec, P.; Freeman, W. T.; and Barron, J. T. 2021. Nerfactor: Neural factorization of shape and reflectance under an unknown illumination. ACM Transactions on Graphics (ToG), 40(6): 1\u201318.Zhang, Y.; Guo, X.; Poggi, M.; Zhu, Z.; Huang, G.; and Mattoccia, S. 2023. Completionformer: Depth completion with convolutions and vision transformers. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 18527\u201318536. Zhu, Z.; Peng, S.; Larsson, V.; Xu, W.; Bao, H.; Cui, Z.; Oswald, M. R.; and Pollefeys, M. 2022. Nice-slam: Neural implicit scalable encoding for slam. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 12786\u201312796. The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI-24)"
+        },
+        "Ngel-slam: Neural implicit representation-based global consistent low-latency slam system": {
+            "authors": [
+                "Y Mao",
+                "X Yu",
+                "K Wang",
+                "Y Wang",
+                "R Xiong"
+            ],
+            "url": "https://arxiv.org/pdf/2311.09525",
+            "ref_texts": "[29] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "29"
+            ],
+            "1": "In robotics,neural implicit representations have been used for object tracking and SLAM, enabling the construction of environment maps and estimation of robot or camera positions [5], [4], [27], [28], [29], [30], [31], which are closely related to our work.",
+            "2": "[29] X."
+        },
+        "NeRF in Robotics: A Survey": {
+            "authors": [
+                "G Wang",
+                "L Pan",
+                "S Peng",
+                "S Liu",
+                "C Xu",
+                "Y Miao"
+            ],
+            "url": "https://arxiv.org/pdf/2405.01333",
+            "ref_texts": "[22] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in ISMAR , 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "22"
+            ],
+            "1": "V ox-Fusion [22] uses a treelike structure to store grid embeddings, allowing the dynamic allocation of new spatial voxels as the scene expands.",
+            "2": "V oxFusion [22] employs voxel feature embedding as input, generating RGB and SDF values as output.",
+            "3": "[22] X."
+        },
+        "Towards open world nerf-based slam": {
+            "authors": [
+                "D Lisus",
+                "C Holmes",
+                "S Waslander"
+            ],
+            "url": "https://arxiv.org/pdf/2301.03102",
+            "ref_texts": "[18] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV ox-Fusion: Dense Tracking and Mapping with V oxel-based Neural Implicit Representation,\u201d in IEEE Int. Symp. Mixed Augmented Reality (ISMAR) , 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "One future avenue of interest is to leverage ideas in [18] to avoid using a predefined grid.",
+            "2": "[18] X."
+        },
+        "GeneAvatar: Generic Expression-Aware Volumetric Head Avatar Editing from a Single Image": {
+            "authors": [
+                "C Bao",
+                "Y Zhang",
+                "Y Li",
+                "X Zhang",
+                "B Yang",
+                "H Bao"
+            ],
+            "url": "https://arxiv.org/pdf/2404.02152",
+            "ref_texts": "[62] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022. 2",
+            "ref_ids": [
+                "62"
+            ],
+            "1": "Neural Radiance Field [33] has exhibited great reconstruction and rendering qualities in SLAM [62, 73], scene editing [5, 58\u201360, 64] and relighting [63, 66, 67], especially promoting the emergence of many 3D avatar reconstruction [4, 16, 53, 68, 69, 76] and generation [50, 52, 54]."
+        },
+        "Neural Radiance Field in Autonomous Driving: A Survey": {
+            "authors": [
+                "L He",
+                "L Li",
+                "W Sun",
+                "Z Han",
+                "Y Liu",
+                "S Zheng"
+            ],
+            "url": "https://arxiv.org/pdf/2404.13816",
+            "ref_texts": "[60] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV ox-fusion: Dense tracking and mapping with voxelbased neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "Furthermore, V ox-Fusion[60] incrementally allocates voxels by an octree-based structure without a pre-trained geometry decoder and proposes a keyframe selection strategy suitable for sparse voxels, resulting in better performance than NICE-SLAM on the Replica dataset in both tracking and mapping.",
+            "2": "[60] X."
+        },
+        "Towards real-time scalable dense mapping using robot-centric implicit representation": {
+            "authors": [
+                "J Liu",
+                "H Chen"
+            ],
+            "url": "https://arxiv.org/pdf/2306.10472",
+            "ref_texts": ""
+        },
+        "Q-slam: Quadric representations for monocular slam": {
+            "authors": [
+                "C Peng",
+                "C Xu",
+                "Y Wang",
+                "M Ding",
+                "H Yang"
+            ],
+            "url": "https://arxiv.org/pdf/2403.08125",
+            "ref_texts": "44. Yang, X., Li, H., Zhai, H., Ming, Y ., Liu, Y ., Zhang, G.: V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022)",
+            "ref_ids": [
+                "44"
+            ],
+            "1": "87 Vox-Fusion [44]\n(GT depth)PSNR \u2191 22.",
+            "2": "92s V ox-Fusion [44] 12.",
+            "3": "It can be observed that our method can achieve comparable speed with V ox-Fusion [44], but providing much higher rendering quality as shown in Tab 1."
+        },
+        "NeuV-SLAM: Fast Neural Multiresolution Voxel Optimization for RGBD Dense SLAM": {
+            "authors": [
+                "W Guo",
+                "B Wang",
+                "L Chen"
+            ],
+            "url": "https://arxiv.org/pdf/2402.02020",
+            "ref_texts": "[17] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "17"
+            ],
+            "1": "Recent research, as indicated in references [17], [18], has experimented with the use of voxel representations for scene depiction and dynamic management through octree structures to achieve real-time expansion and reconstruction of unknownarXiv:2402.",
+            "2": "For instance, the V ox-Fusion [17] method attempts to store neural features directly in voxel vertices to accelerate the optimization process of the scene, but this approach still relies on larger-scale neural networks for accurate scene representation.",
+            "3": "V ox-Fusion [17] integrates neural implicit representations with traditional volume fusion methods, utilizing voxel-based neural implicit surface representations to encode and optimize scenes within each voxel.",
+            "4": "Multiresolution Voxel Generation and Management 1) Generation: Contrary to the [14], [17] approach, which employs a single-resolution voxel, we utilize multiresolution voxels based on scene details to represent the scene.",
+            "5": "2) Neural Multiresolution Voxel Representation: Diverging from V ox-Fusion [17] and DVGO [74] methodologies, our voxel grid representation employs trilinear interpolation for simultaneous modeling of SDF and color features within voxel cells, which enhances precision in querying any space position, significantly boosting scene convergence efficiency: interp (x,V(D),V(S)) :x\u2208R3,V(D),V(S)\u2208RA\u00d7N.",
+            "6": "(5) In contrast to existing methods like Point-SLAM [19] and V ox-Fusion [17], which rely on neural networks to concurrently regress both identity and RGB values during their processing phases, this study introduces a more rapid and streamlined implicit representation approach, named VDF .",
+            "7": "(8) Then, we adopt a volumetric rendering technique similar to the V ox-Fusion [17] to compute and render depth Dand color JOURNAL OF L ATEX CLASS FILES, VOL.",
+            "8": "2) Baseline: For our comparative analysis, we employed iMAP [13], V ox-Fusion [17], NICE-SLAM [14], and DIFusion [76] as our baseline methods.",
+            "9": "In addition, The codes for tracking and mapping evaluation are both from V ox-Fusion [17].",
+            "10": "THE DATA OF I MAP, V OX-FUSION ARE FROM [17], V OX-FUSION *AND NICE-SLAM ARE IMPLEMENTED BY THE OPEN -SOURCE CODE .",
+            "11": "We conducted a quantitative comparison of our system with NICE-SLAM [14] and V ox-Fusion [17].",
+            "12": "THE DATA OF I MAP, NICE-SLAM, AND VOX-FUSION ARE FROM [17].",
+            "13": "Mapping We performed a qualitative comparison of our system with NICE-SLAM [14] and V ox-Fusion [17].",
+            "14": "THE DATA OF VOX-FUSION ARE FROM [17].",
+            "15": "THE DATA OF NICE-SLAM AND VOX-FUSION ARE FROM [17].",
+            "16": "[17] X."
+        },
+        "Hi-Map: Hierarchical Factorized Radiance Field for High-Fidelity Monocular Dense Mapping": {
+            "authors": [
+                "T Hua",
+                "H Bai",
+                "Z Cao",
+                "M Liu",
+                "D Tao",
+                "L Wang"
+            ],
+            "url": "https://arxiv.org/pdf/2401.03203",
+            "ref_texts": "[14] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "14"
+            ],
+            "1": "With the advent of Neural Radiance Fields (NeRF) [11], several research attempts [12], [13], [14], [15], [16] leverage neural field to better represent the scene by encoding the appearance and geometry in a compact and learnable way, benefiting both memory consumption and mapping quality.",
+            "2": "The Neural Radiance Field [11], a novel approach rooted in Implicit Neural Representation (INR) combined with volume rendering techniques, has inspired substantial implicit dense mapping [12], [13], [14], [15], [16], [22], [23], [24], [25], [26], resulting in higher reconstruction quality with more compact representation.",
+            "3": ", scalability and computational efficiency [13], [14], [15], [16].",
+            "4": "01245\n[14] X."
+        },
+        "SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM": {
+            "authors": [
+                "M Li",
+                "S Liu",
+                "H Zhou"
+            ],
+            "url": "https://arxiv.org/pdf/2402.03246",
+            "ref_texts": "41. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022)",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Theseexperimentscompareour method against both implicit NeRF-based approaches [15,37,41,47], and novel 3D-Gaussian-based methods [16], evaluating performance in mapping, tracking, and semantic segmentation.",
+            "2": "We compared our method with Vox-Fusion [41], NICE-SLAM [47], Co-SLAM [37], ESLAM [15], and Point-SLAM [33] for ATE RMSE evaluation."
+        },
+        "Implicit Event-RGBD Neural SLAM": {
+            "authors": [
+                "D Qu",
+                "C Yan",
+                "D Wang",
+                "J Yin",
+                "D Xu",
+                "B Zhao"
+            ],
+            "url": "https://arxiv.org/pdf/2311.11013",
+            "ref_texts": "[72] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In ISMAR , pages 499\u2013507. IEEE, 2022. 2",
+            "ref_ids": [
+                "72"
+            ],
+            "1": "V ox-Fusion [72] utilizes an octreebased structure to expand the scene dynamically."
+        },
+        "NGM-SLAM: Gaussian Splatting SLAM with Radiance Field Submap": {
+            "authors": [
+                "M Li",
+                "J Huang",
+                "L Sun",
+                "AX Tian",
+                "T Deng"
+            ],
+            "url": "https://arxiv.org/pdf/2405.05702",
+            "ref_texts": ""
+        },
+        "DDN-SLAM: Real-time Dense Dynamic Neural Implicit SLAM with Joint Semantic Encoding": {
+            "authors": [
+                "M Li",
+                "J He",
+                "G Jiang",
+                "H Wang"
+            ],
+            "url": "https://arxiv.org/pdf/2401.01545",
+            "ref_texts": ""
+        },
+        "Nid-slam: Neural implicit representation-based rgb-d slam in dynamic environments": {
+            "authors": [
+                "Z Xu",
+                "J Niu",
+                "Q Li",
+                "T Ren",
+                "C Chen"
+            ],
+            "url": "https://arxiv.org/pdf/2401.01189",
+            "ref_texts": "[13] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , 2022.",
+            "ref_ids": [
+                "13"
+            ],
+            "1": "Previous methods [2], [5], [13]\u2013\n[16] have demonstrated the feasibility of using neural networks to model the color and geometric information of static scenes; however, they have not fully exploited the potential of neural implicit representations in dynamic environments.",
+            "2": "[13] X."
+        },
+        "Just flip: Flipped observation generation and optimization for neural radiance fields to cover unobserved view": {
+            "authors": [
+                "M Lee",
+                "K Kang",
+                "H Yu"
+            ],
+            "url": "https://arxiv.org/pdf/2303.06335",
+            "ref_texts": "[9] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "9"
+            ],
+            "1": "Due to these features, many recent works [6], [7], [8], [9], [10] have applied NeRF to SLAM and 3D mapping.",
+            "2": "To address these limitations, recent research [6], [7], [8], [9], [10] has applied NeRF to SLAM for 3D mapping.",
+            "3": "[9] X."
+        },
+        "SimpleMapping: Real-time visual-inertial dense mapping with deep multi-view stereo": {
+            "authors": [
+                "Y Xin",
+                "X Zuo",
+                "D Lu"
+            ],
+            "url": "https://arxiv.org/pdf/2306.08648",
+            "ref_texts": "[60] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang. V ox-Fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pp. 499\u2013507, 2022.",
+            "ref_ids": [
+                "60"
+            ],
+            "1": "Furthermore, we showcase the comparable reconstruction performance of SimpleMapping utilizing only a monocular camera setup without IMU, against a state-of-theart RGB-D dense SLAM method with neural implicit representation, V ox-Fusion [60].",
+            "2": "Furthermore, we evaluate our approach against V ox-Fusion [60], a RGB-D based dense tracking and mapping system using a voxel based neural implicit representation, on ScanNet [6] test set.",
+            "3": "V oxFusion [60] optimizes feature embeddings in voxels and the weights of a MLP decoder on-the-fly with intensive computation, while ours relying on offline training of the MVS network is much more efficient at inference stage.",
+            "4": "As shown in Table 6 and Figure 6, our approach consistently outperforms TANDEM [20] and exhibits competitive performance compared to the RGB-D method, V ox-Fusion [60].",
+            "5": "Note that Vox-Fusion [60] takes RGB-D inputs.",
+            "6": "10 V ox-Fusion [60] 2.",
+            "7": "84 V ox-Fusion [60] 18.",
+            "8": "60 V ox-Fusion [60] 47.",
+            "9": "30 V ox-Fusion [60] 60.",
+            "10": "Vox-Fusion [60] tends to produce over-smoothed geometries and experience drift during long-time tracking, resulting in inconsistent reconstruction, as observed in Scene0787.",
+            "11": "For example, when applying V ox-Fusion [60] to the ScanNet dataset [6], each frame\u2019s average processing time for tracking amounts to 2.",
+            "12": "[60] X."
+        },
+        "SLAM Meets NeRF: A Survey of Implicit SLAM Methods": {
+            "authors": [
+                "Kaiyun Yang",
+                "Yunqi Cheng",
+                "Zonghai Chen",
+                "Jikai Wang"
+            ],
+            "url": "https://www.mdpi.com/2032-6653/15/3/85/pdf",
+            "ref_texts": "35. Yang, X.; Li, H.; Zhai, H.; Ming, Y.; Liu, Y.; Zhang, G. Vox-Fusion: Dense tracking and mapping with voxel-based neural implicit representation. In Proceedings of the 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Singapore, 17\u201321 October 2022; pp. 499\u2013507.",
+            "ref_ids": [
+                "35"
+            ],
+            "1": "To address this problem, Vox-Fusion [35] dynamically allocates new voxels by using an explicit octree structure and encodes the voxel coordinates by Morton coding to improve the voxel retrieval speed.",
+            "2": "Method Name YearUtilized Sensors Decoded Parameters RGB-D RGB LiDAR SDF Density Color NICE-SLAM [11] 2022 \u2713 \u2713 \u2713 Vox-Fusion [35] 2022 \u2713 \u2713 \u2713 NICER-SLAM [34] 2023 \u2713 \u2713 \u2713 Co-SLAM [12] 2023 \u2713 \u2713 \u2713 LONER [38] 2023 \u2713 \u2713 \u2713 Shine-mapping [39] 2023 \u2713 \u2713 \u2713 NF-Atlas [41] 2023 \u2713 \u2713 \u2713 LODE [42] 2023 \u2713 \u2713 \u2713 NeRF-LOAM [45] 2023 \u2713 \u2713 \u2713 LocNDF [11] 2023 \u2713 \u2713 \u2713 C."
+        },
+        "Continuous Pose for Monocular Cameras in Neural Implicit Representation": {
+            "authors": [
+                "Q Ma",
+                "DP Paudel",
+                "A Chhatkuli",
+                "L Van Gool"
+            ],
+            "url": "https://arxiv.org/pdf/2311.17119",
+            "ref_texts": "[61] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022. 8",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "7 Method Rm 0 Rm 1 Rm 2 Off 0 Off 1 Off 2 Off 3 Off 4 Avg V ox-Fusion* [61] 1.",
+            "2": "89 V ox-Fusion* [61] 68.",
+            "3": "1 V ox-Fusion* [61] 3."
+        },
+        "Splat-SLAM: Globally Optimized RGB-only SLAM with 3D Gaussians": {
+            "authors": [
+                "E Sandstr\u00f6m",
+                "K Tateno",
+                "M Oechsle",
+                "M Niemeyer"
+            ],
+            "url": "https://arxiv.org/pdf/2405.16544",
+            "ref_texts": "[72] Yang, X., Li, H., Zhai, H., Ming, Y ., Liu, Y ., Zhang, G.: V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022)",
+            "ref_ids": [
+                "72"
+            ],
+            "1": "1 Introduction A common factor within the recent trend of dense SLAM is that the majority of works reconstruct a dense map by optimizing a neural implicit encoding of the scene, either as weights of an MLP [1, 57,39,45], as features anchored in dense grids [82,42,66,67,58,3,29,83,51], using hierarchical octrees [72], via voxel hashing [79,78,8,49,40], point clouds [18,50,30,75] or axis-aligned feature planes [33,47].",
+            "2": "Enhancements like voxel hashing [43,23,44,11,40] and octrees [53,72,37,5,31] improved scalability, while point-based SLAM [68,52,4,23,25,6,76,50,30,75] has also been effective.",
+            "3": "10891 (2024)\n[72] Yang, X."
+        },
+        "NeRF-Guided Unsupervised Learning of RGB-D Registration": {
+            "authors": [
+                "Z Yu",
+                "Z Qin",
+                "Y Tang",
+                "Y Wang",
+                "R Yi",
+                "C Zhu"
+            ],
+            "url": "https://arxiv.org/pdf/2405.00507",
+            "ref_texts": "33. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022) 5",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "3 Pose Optimization in Neural SLAM Existing Neural SLAM methods [19,26,28,30,33,40,41] incorporate neural implicit representations into RGB-D SLAM systems, allowing tracking and mapping from scratch.",
+            "2": "In the subsequent works, NICESLAM [41] and Vox-Fusion [33] introduce a hybrid representation that combines learnable grid-based features with a neural decoder, enabling the utilization of local scene color and geometry to guide pose optimization."
+        },
+        "Benchmarking Neural Radiance Fields for Autonomous Robots: An Overview": {
+            "authors": [
+                "Y Ming",
+                "X Yang",
+                "W Wang",
+                "Z Chen",
+                "J Feng"
+            ],
+            "url": "https://arxiv.org/pdf/2405.05526",
+            "ref_texts": "[196] X. Yang, H. Li, H. Zhai, Y. Ming, Y. Liu, G. Zhang, Voxfusion:Densetrackingandmappingwithvoxel-basedneuralimplicit Ming et al.: Preprint submitted to Elsevier Page 29 of 32 Benchmarking NeRF for Autonomous Robots representation, in: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "196"
+            ],
+            "1": "Vox-Fusion [196] proposes a hybrid SLAM system that blends voxel-based mapping with neural implicit networks for efficient, detailed environment reconstruction using SDF representation.",
+            "2": "66 Vox-Fusion [196] 2.",
+            "3": "52 Vox-Fusion [196] 0.",
+            "4": "97 Vox-Fusion [196] 8.",
+            "5": "[196] X."
+        },
+        "CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field": {
+            "authors": [
+                "J Hu",
+                "X Chen",
+                "B Feng",
+                "G Li",
+                "L Yang",
+                "H Bao"
+            ],
+            "url": "https://arxiv.org/pdf/2403.16095",
+            "ref_texts": "53. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022) 4, 10, 11",
+            "ref_ids": [
+                "53"
+            ],
+            "1": "NICE-SLAM [58] chose a fully covered voxel grid to store neural features, while Vox-Fusion [53] further improved this grid to an adaptive size.",
+            "2": "We primarily consider state-of-the-art NeRF-SLAM works, includingNICE-SLAM[58],Co-SLAM[47],Point-SLAM[34],andVox-Fusion[53], as baselines.",
+            "3": "\"-\" indicates failure results in Vox-Fusion [53].",
+            "4": "4, we quantitatively measure the mapping performance of our proposed system, in comparison to NICE-SLAM [58], Co-SLAM [47], Point-SLAM [34], and Vox-Fusion [53]."
+        },
+        "Enhancing Vehicle Aerodynamics with Deep Reinforcement Learning in Voxelised Models": {
+            "authors": [
+                "J Patel",
+                "Y Spyridis",
+                "V Argyriou"
+            ],
+            "url": "https://arxiv.org/pdf/2405.11492",
+            "ref_texts": "[12] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "12"
+            ],
+            "1": "Beyond CFD, voxelisation has found applications in 3D city modeling [11], virtual/augmented reality [12], and 3D printing [13].",
+            "2": "[12] X."
+        },
+        "TAMBRIDGE: Bridging Frame-Centered Tracking and 3D Gaussian Splatting for Enhanced SLAM": {
+            "authors": [
+                "P Jiang",
+                "H Liu",
+                "X Li",
+                "T Wang",
+                "F Zhang"
+            ],
+            "url": "https://arxiv.org/pdf/2405.19614",
+            "ref_texts": "[37] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V oxfusion: Dense tracking and mapping with voxel-based neural implicit representation. In ISMAR , pages 499\u2013507, 2022.",
+            "ref_ids": [
+                "37"
+            ],
+            "1": "39 V ox-Fusion [37] 3."
+        },
+        "Bayesian NeRF: Quantifying Uncertainty with Volume Density in Neural Radiance Fields": {
+            "authors": [
+                "S Lee",
+                "K Kang",
+                "H Yu"
+            ],
+            "url": "https://arxiv.org/pdf/2404.06727",
+            "ref_texts": "42. Yang, X., Li, H., Zhai, H., Ming, Y ., Liu, Y ., Zhang, G.: V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022) 3",
+            "ref_ids": [
+                "42"
+            ],
+            "1": "NeRF\u2019s application scope has also expanded, encompassing areas such as scene editing [35,44], converting text to 3D models [15,23], and enhancing visual scene-based SLAM technologies [12,24,42,48], demonstrating its versatility and potential in various domains."
+        },
+        "Gaussian-LIC: Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting": {
+            "authors": [
+                "X Lang",
+                "L Li",
+                "H Zhang",
+                "F Xiong",
+                "M Xu",
+                "Y Liu"
+            ],
+            "url": "https://arxiv.org/pdf/2404.06926",
+            "ref_texts": "[8] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang. \u201cV ox-Fusion: Dense tracking and mapping with voxel-based neural implicit representation\u201d. In:2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE. 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "8"
+            ],
+            "1": "Further, V ox-Fusion [8] utilizes octree to dynamically expand the volumetric neural implicit map, eliminating the need for pre-allocated grids.",
+            "2": "[8] X."
+        },
+        "Rgbd gs-icp slam": {
+            "authors": [
+                "S Ha",
+                "J Yeon",
+                "H Yu"
+            ],
+            "url": "https://arxiv.org/pdf/2403.12550",
+            "ref_texts": "45. Yang, X., Li, H., Zhai, H., Ming, Y ., Liu, Y ., Zhang, G.: V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022) 1",
+            "ref_ids": [
+                "45"
+            ],
+            "1": "Various approaches [8, 18, 32, 39, 45, 47] have been attempted to utilize INR for the real-time SLAM mapping process."
+        },
+        "3QFP: Efficient neural implicit surface reconstruction using Tri-Quadtrees and Fourier feature Positional encoding": {
+            "authors": [
+                "S Sun",
+                "M Mielle",
+                "AJ Lilienthal",
+                "M Magnusson"
+            ],
+            "url": "https://arxiv.org/pdf/2401.07164",
+            "ref_texts": "[23] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. \u201cV ox-Fusion: Dense Tracking and Mapping with V oxel-based Neural Implicit Representation\u201d. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . 2022, pp. 499\u2013507. DOI:10 . 1109 / ISMAR55827.2022.00066 .",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "Instead of storing features in 3D voxel grids [20, 23, 24] or dense feature planes [21], we use three planar quadtrees to represent surfaces.",
+            "2": "Accounting for the large memory footprint when applying dense feature voxel grids, several techniques have been proposed to reduce memory usage, such as hash-tables [35], octree-trees [16]; these compact data structures have been leveraged in recent robotic applications [20, 18, 19, 26, 24, 23, 36].",
+            "3": "To avoid storing unnecessary features in free space, prior work [20, 23, 16, 24] employs octree to store features only within voxel grids where surface points are located."
+        },
+        "H3-Mapping: Quasi-Heterogeneous Feature Grids for Real-time Dense Mapping Using Hierarchical Hybrid Representation": {
+            "authors": [
+                "C Jiang",
+                "Y Luo",
+                "B Zhou",
+                "S Shen"
+            ],
+            "url": "https://arxiv.org/pdf/2403.10821",
+            "ref_texts": "[4] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE Int. Symp. Mixed Augmented Reality . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "4"
+            ],
+            "1": "To enhance mapping speed and expand representation capacity, various grid representations have been introduced, including dense 3D grids [3], sparse octree grids [4], multiresolution hash grids [6], and factored grids [5].",
+            "2": "SDF-based Volume rendering Like V ox-Fusion [4], we only sample points along the ray that intersects with any leaf node voxel of octree.",
+            "3": "[4] X."
+        },
+        "A*\u2013Ant Colony Optimization Algorithm for Multi-Branch Wire Harness Layout Planning": {
+            "authors": [
+                "Feng Yang",
+                "Renjie Zhang",
+                "Ping Wang",
+                "Shuyu Xing",
+                "Zhenlin Wang",
+                "Ming Li",
+                "Qiang Fang"
+            ],
+            "url": "https://www.mdpi.com/2079-9292/13/3/529/pdf",
+            "ref_texts": "24. Yang, X.; Li, H.; Zhai, H.; Ming, Y.; Liu, Y.; Zhang, G. Vox-Fusion: Dense Tracking and Mapping with Voxel-based Neural Implicit Representation. In Proceedings of the 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Singapore, 17\u201321 October 2022; pp. 499\u2013507.",
+            "ref_ids": [
+                "24"
+            ],
+            "1": "Here, considering that path planning does not have a strong requirement for strict distance, in order to meet the requirements of subsequent interference detection and other aspects, we consider adopting a method based on implicit representation [24]."
+        },
+        "DVN-SLAM: Dynamic Visual Neural SLAM Based on Local-Global Encoding": {
+            "authors": [
+                "W Wu",
+                "G Wang",
+                "T Deng",
+                "S Aegidius",
+                "S Shanks"
+            ],
+            "url": "https://arxiv.org/pdf/2403.11776",
+            "ref_texts": "[3]Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022.",
+            "ref_ids": [
+                "3"
+            ],
+            "1": "Compared to current NeRF-based SLAM methods, such as iMAP [1], NICE-SLAM\n[2], V ox-Fusion [3], ESLAM[4] and Co-SLAM [5], DVN-SLAM not only achieves competitive performance in static scenes, but also remains effective in high-dynamic scenes.",
+            "2": "05 V ox-Fusion [3] 2.",
+            "3": "Due to the adoption of an Octree for scene representation in V ox-Fusion [3], the reconstructed results tend to have more holes, resulting in a high accuracy (Acc) but a low completeness ratio.",
+            "4": "V ox-Fusion [3] utilizes an octree structure for scene representation, resulting in significant holes in the reconstruction.",
+            "5": "4M V ox-Fusion [3] 2.",
+            "6": "69 V ox-Fusion [3] 1.",
+            "7": "13 V ox-Fusion [3] 2.",
+            "8": "87 V ox-Fusion [3] 3.",
+            "9": "26 V ox-Fusion [3] 3.",
+            "10": "84 V ox-Fusion [3] 1.",
+            "11": "71 V ox-Fusion [3] 3.",
+            "12": "98 V ox-Fusion [3] 1.",
+            "13": "82 V ox-Fusion [3] 4."
+        },
+        "Monocular Gaussian SLAM with Language Extended Loop Closure": {
+            "authors": [
+                "T Lan",
+                "Q Lin",
+                "H Wang"
+            ],
+            "url": "https://arxiv.org/pdf/2405.13748",
+            "ref_texts": "41. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: IEEE Int. Symp. Mix. Augment. Real. pp. 499\u2013507. IEEE (2022) 3, 9, 10, 11, 12, 13 Monocular Gaussian SLAM with Language Extended Loop Closure 17",
+            "ref_ids": [
+                "41"
+            ],
+            "1": "Differentiable Rendering SLAM As the emergence of Neural Radiance Field [23] (NeRF), methods such as [5,14,20,29,30,34,39,41,43,45] have achieved excellent improvement in high-fidelity reconstruction with NeRF-based representation.",
+            "2": "In addition, some previous NeRF-based methods [30,41,45] are also involved in the comparison.",
+            "3": "Furthermore, though based on monocular input, our method shows competitive performance with RGBD-based Gaussian SLAM [17] and outperforms previous NeRF-based methods [40,41,45].",
+            "4": "The results show that our RGB-based method outperforms early RGB-D based NeRF SLAM methods [41,45] in almost all the metrics, and only slightly lower in PSNR than SOTA RGB-D based methods [17,30].",
+            "5": "Results of [17,40,41,45] are taken from [17] and results of [36] and [43] are obtained by running their codes.",
+            "6": "Method Office0 Office01 Office02 Office03 Office04 Room0 Room1 Room2 AvgRGB-DVox-Fusion [41] 0.",
+            "7": "Results of [17,30,41,45] are taken from [17].",
+            "8": "Method Metric Office0 Office01 Office02 Office03 Office04 Room0 Room1 Room2 Avg Vox-Fusion [41]PSNR \u219127.",
+            "9": "Results of [17,30,41,45] are taken from [17] and results of [36,43] are taken from [43].",
+            "10": "Method 0000 0059 0106 0169 0181 AvgRGB-DVox-Fusion [41] 0.",
+            "11": "Results of [17,25,30, 38,41,45] are taken from [17].",
+            "12": "0198 Vox-Fusion [41] 0."
+        },
+        "N-Mapping: Normal Guided Neural Non-Projective Signed Distance Fields for Large-scale 3D Mapping": {
+            "authors": [
+                "S Song",
+                "J Zhao",
+                "K Huang",
+                "J Lin",
+                "C Ye"
+            ],
+            "url": "https://arxiv.org/pdf/2401.03412",
+            "ref_texts": "[10] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxFusion: Dense Tracking and Mapping with V oxel-based Neural Implicit Representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "10"
+            ],
+            "1": "Subsequent works tackle this issue by employing various data structures such as sparse octree [10], [11], hash encoding [26], and neural points [27].",
+            "2": "Most of these approaches [8], [10], [23]\u2013[25] mitigate this issue by replaying historical keyframes.",
+            "3": "Voxel-oriented Training 1) Voxel-oriented Sliding Window: Current feature gridbased methods [9], [10], [25] often select recently observed keyframes from the global set for efficient local optimization, similar to the sliding window method employed in traditional SLAM systems.",
+            "4": "[10] X."
+        },
+        "Blending Distributed NeRFs with Tri-stage Robust Pose Optimization": {
+            "authors": [
+                "B Ye",
+                "C Liu",
+                "X Ye",
+                "Y Chen",
+                "Y Wang",
+                "Z Yan"
+            ],
+            "url": "https://arxiv.org/pdf/2405.02880",
+            "ref_texts": "[25] Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V ox-fusion: Dense tracking and mapping with voxelbased neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013",
+            "ref_ids": [
+                "25"
+            ],
+            "1": "Besides, current approaches using explicit encoding methods like grid [28] [17] and octree[25] for realtime performance, which face the challenge of exponentially expanding encoding components as the scene scale increases, leading to substantially increased storage requirements."
+        },
+        "S3-SLAM: Sparse Tri-plane Encoding for Neural Implicit SLAM": {
+            "authors": [
+                "Z Zhang",
+                "Y Zhang",
+                "Y Wu",
+                "B Zhao",
+                "X Wang"
+            ],
+            "url": "https://arxiv.org/pdf/2404.18284",
+            "ref_texts": "32. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022) 1, 2",
+            "ref_ids": [
+                "32"
+            ],
+            "1": "Existing neural implicit SLAM [10,21,25,29,32,35] excels in reconstructing high-quality scenes and accurately predicting camera poses.",
+            "2": "For instance, methods like Vox-Fusion [32] and Co-SLAM [29] have fewer parameters but lose some detailed appearance information.",
+            "3": "Notable efforts to enhance the efficiency of neural implicit representations include techniques such as sparse voxel octrees [32], tri-planes [8], dense grids [26,35], hash grids [14], and tensor decomposition [3,9]."
+        },
+        "MGS-SLAM: Monocular Sparse Tracking and Gaussian Mapping with Depth Smooth Regularization": {
+            "authors": [
+                "P Zhu",
+                "Y Zhuang",
+                "B Chen",
+                "L Li",
+                "C Wu",
+                "Z Liu"
+            ],
+            "url": "https://arxiv.org/pdf/2405.06241",
+            "ref_texts": "[30] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "30"
+            ],
+            "1": "The comparative work is very comprehensive including traditional direct visual odometry [9], learningbased SLAM[10], neural implicit slam [26], [30], and more recently Gaussian Splatting-based SLAM [22], [23].",
+            "2": "[30] X."
+        },
+        "ImTooth: Neural Implicit Tooth for Dental Augmented Reality": {
+            "authors": [
+                "Hai Li",
+                "Hongjia Zhai",
+                "Xingrui Yang",
+                "Zhirong Wu",
+                "Yihao Zheng",
+                "Haofan Wang",
+                "Jianchao Wu",
+                "Hujun Bao",
+                "Guofeng Zhang"
+            ],
+            "url": "http://www.cad.zju.edu.cn/home/gfzhang/papers/VR-TVCG-2023-ImTooth/ImTooth.pdf",
+            "ref_texts": "[61] X. Yang, H. Li, H. Zhai, Y. Ming, Y. Liu, and G. Zhang. Vox-Fusion: Dense tracking and mapping with voxel-based neural implicit representation. In IEEE International Symposium on Mixed and Augmented Reality, pp. 80\u201389, 2021.",
+            "ref_ids": [
+                "61"
+            ],
+            "1": "To establish enough co-visibility with a small number of images, we borrow the concept of key-frames from SLAM methods [61], and select the key-frames based on the mutual visibility of voxels.",
+            "2": "[61] X."
+        },
+        "MUTE-SLAM: Real-Time Neural SLAM with Multiple Tri-Plane Hash Representations": {
+            "authors": [
+                "Y Yan",
+                "R He",
+                "Z Liu"
+            ],
+            "url": "https://arxiv.org/pdf/2403.17765",
+            "ref_texts": "33. Yang, X., Li, H., Zhai, H., Ming, Y., Liu, Y., Zhang, G.: Vox-fusion: Dense tracking and mapping with voxel-based neural implicit representation. In: 2022 IEEE InMUTE-SLAM 17 ternational Symposium on Mixed and Augmented Reality (ISMAR). pp. 499\u2013507. IEEE (2022) 2, 3, 4, 8, 9, 11, 12",
+            "ref_ids": [
+                "33"
+            ],
+            "1": "Some [11,33] address this with octree-based voxel grids, but they still necessitate an initially defined loose boundary and struggle to reconstruct beyond these limits.",
+            "2": "Vox-Fusion [33] attempts to address this by introducing octree-based voxel grids as the map representation but is still limited to the initially defined spatial scope.",
+            "3": "1 Multi-map Scene Representation As previous neural implicit SLAM methods [12,25,28,33,35] are restricted to functioning within pre-defined scene boundaries, they are unsuitable for navigating and mapping large, unknown indoor environments.",
+            "4": "To better evaluate our proposed MUTE-SLAM on pose estimation, we also compare with previous methods NICE-SLAM [35] and Vox-Fusion [33].",
+            "5": "We compare the reconstruction performance on Replica [23] only with Co-SLAM [28] and ESLAM [12] as they significantly outperform previous methods [25,33,35].",
+            "6": "62 Vox-Fusion [33] 8.",
+            "7": "[33] ESLAM [12] Co."
+        },
+        "DF-SLAM: Neural Feature Rendering Based on Dictionary Factors Representation for High-Fidelity Dense Visual SLAM System": {
+            "authors": [
+                "W Wei",
+                "J Wang"
+            ],
+            "url": "https://arxiv.org/pdf/2404.17876",
+            "ref_texts": "[7] X. Yang, H. Li, H. Zhai, Y. Ming, Y. Liu, and G. Zhang, \u201cVox-fusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "7"
+            ],
+            "1": "Vox-Fusion [7] employs a sparse octree for scene representation and does not require a predefined scene bounding box.",
+            "2": "2 Baseline We compare our method to existing state-of-the-art neural implicit SLAM methods: iMAP [5], NICE-SLAM[6], Vox-Fusion [7], ESLAM [8], Co-SLAM [9], Point-SLAM\n[27] and GS-SLAM [28].",
+            "3": "32Vox-Fusion* [7] Depth L1 \u2193 1.",
+            "4": "73 VoxFusion* [7] 0.",
+            "5": "2 VoxFusion* [7] 11.",
+            "6": "31 VoxFusion* [7] 3.",
+            "7": "56 Vox-Fusion* [7] 11.",
+            "8": "[7] X."
+        },
+        "HVOFusion: Incremental Mesh Reconstruction Using Hybrid Voxel Octree": {
+            "authors": [
+                "S Liu",
+                "J Chen",
+                "J Zhu"
+            ],
+            "url": "https://arxiv.org/pdf/2404.17974",
+            "ref_texts": "[Yang et al. , 2022 ]Xingrui Yang, Hai Li, Hongjia Zhai, Yuhang Ming, Yuqian Liu, and Guofeng Zhang. V oxfusion: Dense tracking and mapping with voxel-based neural implicit representation. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , pages 499\u2013507. IEEE, 2022.",
+            "ref_ids": [
+                "Yang et al\\. , 2022 "
+            ]
+        },
+        "TiV-NeRF: Tracking and Mapping via Time-Varying Representation with Dynamic Neural Radiance Fields": {
+            "authors": [
+                "C Duan",
+                "Z Yang"
+            ],
+            "url": "https://arxiv.org/pdf/2310.18917",
+            "ref_texts": "[6] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "6"
+            ],
+            "1": "V ox-Fusion [6] exploits octree-based representation and achieves scalable implicit scene reconstruction.",
+            "2": "V oxFusion [6] proposes an accurate and effective SLAM system based on sparse voxel octree.",
+            "3": "[36] and V oxFusion [6].",
+            "4": "V ox-Fusion [6] randomly selects keyframes from keyframe database to optimize the global map, which leads to incomplete reconstruction.",
+            "5": "After self-supervised training of each frame, we obtain an octree-based map up to current frame and newly NICE-SLAM [5] V ox-Fusion [6] Ours (Random) Ours (Overlap)Room4-1\n Room4-2\n ToyCar3\n Teddy Fig.",
+            "6": "However, NICE-SLAM [5] and V ox-Fusion [6] are unable to capture it.",
+            "7": "0486 V ox-Fusion [6]RMSE [m](\u2193) 0.",
+            "8": "5420 V ox-Fusion [6]MSE(\u2193) 0.",
+            "9": "Object Completion The keyframe selection strategy used in V ox-Fusion [6] is unstable, its experimental results are different across multiple executions of experiments.",
+            "10": "Random Keyframe selection strategy used in V ox-Fusion [6] is unable to reconstruct the 3D mesh that do not appear in the current view (Left column), ours based on overlap, however, fully reconstructs the blue car (Right column), even for some parts of the car those are not observed in current camera view.",
+            "11": "[6] X."
+        },
+        "NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting": {
+            "authors": [
+                "Y Ji",
+                "Y Liu",
+                "G Xie",
+                "B Ma",
+                "Z Xie"
+            ],
+            "url": "https://arxiv.org/pdf/2403.11679",
+            "ref_texts": "[23] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV ox fusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) . IEEE, 2022, pp. 499\u2013507.",
+            "ref_ids": [
+                "23"
+            ],
+            "1": "503 V ox-Fusion [23] 2.",
+            "2": "[23] X."
+        },
+        "MotionGS: Compact Gaussian Splatting SLAM by Motion Filter": {
+            "authors": [
+                "X Guo",
+                "P Han",
+                "W Zhang",
+                "H Chen"
+            ],
+            "url": "https://arxiv.org/pdf/2405.11129",
+            "ref_texts": "[18] X. Yang, H. Li, H. Zhai, Y . Ming, Y . Liu, and G. Zhang, \u201cV oxfusion: Dense tracking and mapping with voxel-based neural implicit representation,\u201d in 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) , 2022, pp. 499\u2013507. 1, 5",
+            "ref_ids": [
+                "18"
+            ],
+            "1": "2) Baseline Methods: We compare and analyze MotionGS against classic traditional SLAM approach (ORB-SLAM2 [6]), deep learning based method (DROID-SLAM [31]), NeRF-based SLAM methods (iMAP [17], NICE-SLAM [19], V ox-Fusion [18], ESLAM [20], Co-SLAM [22], Point-SLAM [23]), and 3DGS-based SLAM methods (MonoGS [27], SplaTAM [28], GS-SLAM [25]).",
+            "2": "1, 2, 5\n[18] X."
+        }
+    }
+}
